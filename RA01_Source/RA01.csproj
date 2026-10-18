@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- RA01: a library compiled by NativeAOT becomes a plain native DLL, no .NET runtime needed in the game. -->
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishAot>true</PublishAot>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- RA01: M13-11 - ILC 8.0.31 sometimes fails "Code generation failed" for MeleeActions when it compiles on many threads at once (24 by default); on one thread
+         the same code compiles cleanly. This is the toolchain's own switch for that (its targets file turns it into "parallelism:1" for ILC).
+         Cost - build: slower native compile (roughly a minute more); CPU/GPU in game: none. -->
+    <IlcSingleThreaded>true</IlcSingleThreaded>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- RA01: the launcher is its own program, so keep it out of the mod DLL. -->
+    <Compile Remove="Launcher\**" />
+    <!-- RA01: M47 - the xUnit tests are their own project too (Tests\RA01.Tests.csproj), never part of RA01.dll. -->
+    <Compile Remove="Tests\**" />
+  </ItemGroup>
+
+</Project>

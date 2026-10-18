@@ -1,0 +1,95 @@
+2026-10-18 04:34:22.704 [thread 1] RA01 hook: aim zoom trim (M13-64) hooked at RVA 0x127FD2
+2026-10-18 04:34:22.834 [thread 1] RA01 hook: visibility update hooked at RVA 0x5B8D28
+2026-10-18 04:34:22.903 [thread 1] RA01 hook: apply crosshair hooked at RVA 0x5B8C18
+2026-10-18 04:34:22.960 [thread 1] RA01 hook: set crosshair (log only) hooked at RVA 0x5B9EE8
+2026-10-18 04:34:22.966 [thread 1] RA01 crosshair: per-frame check on (table at RVA 0x2CDCDA0, entry 39)
+2026-10-18 04:34:23.030 [thread 1] RA01 hook: active-weapon event handler hooked at RVA 0x656288
+2026-10-18 04:34:23.092 [thread 1] RA01 hook: ray runner (physics world only) hooked at RVA 0x2389CC
+2026-10-18 04:34:23.158 [thread 1] RA01 hook: multi-hit ray runner (count callers) hooked at RVA 0x2397F8
+2026-10-18 04:34:23.216 [thread 1] RA01 hook: PhysX raycast hooked at RVA 0x10FC80890
+2026-10-18 04:34:23.273 [thread 1] RA01 hook: PhysX sweep hooked at RVA 0x10FC80960
+2026-10-18 04:34:23.397 [thread 1] RA01 hook: aim source, start hooked at RVA 0x4D8354
+2026-10-18 04:34:23.456 [thread 1] RA01 hook: aim source, exit (steers V's aim) hooked at RVA 0x4D89BC
+2026-10-18 04:34:23.537 [thread 1] RA01 hook: world node attach (room probe) hooked at RVA 0x3C7C1A
+2026-10-18 04:34:24.364 [thread 1] RA01 throw lever: hooked at RVA 0x84F9AC
+2026-10-18 04:34:24.364 [thread 1] RA01 throw lever: ready - V's own throws can be given a landing point and angle (Actions\PhysicalThrow.cs)
+2026-10-18 04:34:24.366 [thread 40] RA01 melee trace: the melee thread is running
+2026-10-18 04:34:24.547 [thread 44] RA01 weapon probe: V's rig 0x231F7B3DA48 (294 live bones, longest name list 735) - Mantis Blades bones no, Monowire bones no, Gorilla Arms bones no, launcher bones no, fx_muzzle no
+2026-10-18 04:34:24.698 [thread 45] RA01 weapons: V holds nothing we recognise -> crosshair as the game shows it
+2026-10-18 04:34:24.698 [thread 45] RA01 aiming: the game's own aim (the crosshair is drawn on it)
+2026-10-18 04:34:28.505 [thread 36] RA01 M35 no aim zoom: 170 zoom-level (guns and scopes; 8 left for Kiroshi, fists and cyberware), 7 scope-view and 59 aim-view cards found; 223 arrows to turn, 181 record notes found, 42 records without a note
+2026-10-18 04:34:28.774 [thread 36] RA01 M35 no aim zoom ON: 404 turned, 0 skipped (guns already in hand change after loading a save)
+2026-10-18 04:34:28.776 [thread 36] RA01 guns ready voice: playing R:\zzz_Mod_work_I_am_doing\ReleaseGit-Cyberpunk2077-VR-RA01-Edition\Cyberpunk2077-VR-RA01-Edition\Sounds\RA01_GunsReady.wav (M52)
+2026-10-18 04:34:31.688 [thread 46] RA01 gun calibration: 20 gun(s) read from RA01_GunCalibration.ini
+2026-10-18 04:34:39.935 [thread 28] RA01 hook: occlusion order form (engine debug views) hooked at RVA 0x79E748
+2026-10-18 04:34:39.988 [thread 28] RA01 hook: render camera matrix update (near plane test) hooked at RVA 0x1E412C
+2026-10-18 04:34:59.288 [thread 32] RA01 weapon probe: V's rig 0x231DCE80AA0 (619 live bones, longest name list 619) - Mantis Blades bones no, Monowire bones no, Gorilla Arms bones no, launcher bones no, fx_muzzle no
+2026-10-18 04:34:59.338 [thread 23] RA01 weapon probe: other skeleton 0x232034B45B0 animated (50 bones) - not a gun or known cyberware
+2026-10-18 04:34:59.338 [thread 22] RA01 weapon probe: other skeleton 0x232034B4538 animated (47 bones) - not a gun or known cyberware
+2026-10-18 04:34:59.352 [thread 8] RA01 weapon probe: other skeleton 0x231D9D2CFF8 animated (43 bones) - not a gun or known cyberware
+2026-10-18 04:34:59.352 [thread 16] RA01 weapon probe: other skeleton 0x231FF157C10 animated (53 bones) - not a gun or known cyberware
+2026-10-18 04:34:59.352 [thread 21] RA01 weapon probe: other skeleton 0x23201FB2A08 animated (55 bones) - not a gun or known cyberware
+2026-10-18 04:34:59.512 [thread 3] RA01 weapon event: Rifle for the NPC copy (weapon ID 0x1A36537670)
+2026-10-18 04:34:59.513 [thread 11] RA01 weapon event: Rifle for the NPC copy (weapon ID 0x1A36537670)
+2026-10-18 04:35:06.764 [thread 5] RA01 weapon probe: gun skeleton 0x231FFED5168 drawn (23 bones, fx_muzzle is bone 13, muzzle 63 cm out)
+2026-10-18 04:35:06.771 [thread 40] RA01 what V holds: Gun - from skeletons
+2026-10-18 04:35:06.771 [thread 45] RA01 weapons: V holds a gun -> crosshair hidden
+2026-10-18 04:35:06.772 [thread 45] RA01 aiming: shots follow the barrel while firing
+2026-10-18 04:35:06.773 [thread 15] RA01 weapon event: Handgun (pistol) for the NPC copy (weapon ID 0x1A78EAB3EA)
+2026-10-18 04:35:06.773 [thread 24] RA01 weapon event: Rifle for the NPC copy (weapon ID 0x20BA19BFDF)
+2026-10-18 04:35:06.775 [thread 24] RA01 weapon event: Handgun (pistol) for the NPC copy (weapon ID 0x1A78EAB3EA)
+2026-10-18 04:35:06.775 [thread 3] RA01 weapon event: Rifle for the NPC copy (weapon ID 0x20BA19BFDF)
+2026-10-18 04:35:06.786 [thread 13] RA01 weapon event: SMG for the NPC copy (weapon ID 0x1A6984430E)
+2026-10-18 04:35:06.790 [thread 8] RA01 weapon event: SMG for the NPC copy (weapon ID 0x1A6984430E)
+2026-10-18 04:35:07.082 [thread 8] RA01 weapon probe: gun skeleton 0x23201FB8660 drawn (20 bones, fx_muzzle is bone 10, muzzle 32 cm out)
+2026-10-18 04:35:07.095 [thread 5] RA01 weapon probe: gun skeleton 0x232000D5438 drawn (16 bones, fx_muzzle is bone 3, muzzle 30 cm out)
+2026-10-18 04:35:08.964 [thread 24] RA01 crosshair: manager class 0x7FF7F4A1B268 - safe-state switch +0x283, reduced opacity +0x278
+2026-10-18 04:35:08.964 [thread 24] RA01 crosshair probe: set crosshair on a new manager 0x23607DACBC0 (crosshair rule now: hidden)
+2026-10-18 04:35:08.964 [thread 24] RA01 crosshair type test: incoming crosshair 0x0 (type label 0x231FE81A870) - skeleton reading says Gun; crosshair +0x30..: none; info +0x28..: none
+2026-10-18 04:35:09.005 [thread 24] RA01 crosshair: re-applied on manager 0x23607DACBC0 from the per-frame check (rule now hidden)
+2026-10-18 04:35:09.113 [thread 25] RA01 weapon id test: manager +0x168 = 0x00000231FA692430 (name fingerprint 0xFA692430, name length 49) - skeleton reading says Gun
+2026-10-18 04:35:09.113 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000001000000 (3 updates since the last line)
+2026-10-18 04:36:13.141 [thread 15] RA01 weapon event: Mantis Blades for V (weapon ID 0x1E30B64CBB)
+2026-10-18 04:36:13.147 [thread 45] RA01 weapons: V holds Mantis Blades (Mantis Blades, from the game's data) -> crosshair as the game shows it
+2026-10-18 04:36:13.147 [thread 40] RA01 what V holds: MantisBlades (Mantis Blades) - from the game's weapon events
+2026-10-18 04:36:13.147 [thread 45] RA01 aiming: the game's own aim (the crosshair is drawn on it)
+2026-10-18 04:36:13.158 [thread 40] RA01 what V holds: MantisBlades (Mantis Blades) - from V's right-hand slot
+2026-10-18 04:36:13.179 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001010001000000 (1 updates since the last line)
+2026-10-18 04:36:13.218 [thread 4] RA01 crosshair: re-applied on manager 0x23607DACBC0 from the per-frame check (rule now shown)
+2026-10-18 04:36:13.269 [thread 49] RA01 weapon probe: V's rig 0x232003F5438 (765 live bones, longest name list 765) - Mantis Blades bones YES, Monowire bones no, Gorilla Arms bones no, launcher bones no, fx_muzzle no
+2026-10-18 04:36:13.430 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.10, flags +0x280..287 = 0001010000000000 (1 updates since the last line)
+2026-10-18 04:36:15.181 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.10, flags +0x280..287 = 0001000000000000 (1 updates since the last line)
+2026-10-18 04:36:15.360 [thread 9] RA01 weapon event: Handgun (pistol) for V (weapon ID 0x1CFC41E383)
+2026-10-18 04:36:15.361 [thread 40] RA01 what V holds: Gun (Handgun (pistol)) - from the game's weapon events
+2026-10-18 04:36:15.363 [thread 45] RA01 weapons: V holds a gun (Handgun (pistol), from the game's data) -> crosshair hidden
+2026-10-18 04:36:15.363 [thread 45] RA01 aiming: shots follow the barrel while firing
+2026-10-18 04:36:15.366 [thread 21] RA01 weapon probe: gun 0x231FFED5168 (63 cm) skipped for the muzzle - V holds Handgun (pistol)
+2026-10-18 04:36:15.367 [thread 6] RA01 crosshair: re-applied on manager 0x23607DACBC0 from the per-frame check (rule now hidden)
+2026-10-18 04:36:15.372 [thread 40] RA01 what V holds: Gun (Handgun (pistol)) - from V's right-hand slot
+2026-10-18 04:36:15.376 [thread 16] RA01 weapon probe: gun skeleton 0x232017C4358 drawn (22 bones, fx_muzzle is bone 5, muzzle 28 cm out)
+2026-10-18 04:36:15.380 [thread 22] RA01 weapon event: Handgun (pistol) for the NPC copy (weapon ID 0x1CFC41E383)
+2026-10-18 04:36:15.382 [thread 14] RA01 weapon event: Handgun (pistol) for the NPC copy (weapon ID 0x1CFC41E383)
+2026-10-18 04:36:15.432 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000001000000 (1 updates since the last line)
+2026-10-18 04:36:15.585 [thread 49] RA01 weapon probe: V's rig 0x231FF987B20 (619 live bones, longest name list 735) - Mantis Blades bones YES, Monowire bones no, Gorilla Arms bones no, launcher bones no, fx_muzzle no
+2026-10-18 04:36:17.434 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000100000000 (1 updates since the last line)
+2026-10-18 04:36:17.684 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000101000000 (1 updates since the last line)
+2026-10-18 04:36:18.685 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000001000000 (1 updates since the last line)
+2026-10-18 04:36:19.186 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000000000000 (0 updates since the last line)
+2026-10-18 04:36:19.687 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000001000000 (1 updates since the last line)
+2026-10-18 04:36:19.937 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000000000000 (1 updates since the last line)
+2026-10-18 04:36:20.438 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000001000000 (1 updates since the last line)
+2026-10-18 04:36:20.939 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000000000000 (0 updates since the last line)
+2026-10-18 04:36:21.190 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000001000000 (1 updates since the last line)
+2026-10-18 04:36:21.440 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000101000000 (2 updates since the last line)
+2026-10-18 04:36:21.941 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000100000000 (0 updates since the last line)
+2026-10-18 04:36:22.192 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000101000000 (1 updates since the last line)
+2026-10-18 04:36:22.692 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000100000000 (1 updates since the last line)
+2026-10-18 04:36:22.943 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000101000000 (1 updates since the last line)
+2026-10-18 04:36:23.945 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000001000000 (1 updates since the last line)
+2026-10-18 04:36:24.446 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000000000000 (0 updates since the last line)
+2026-10-18 04:36:25.197 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000001000000 (1 updates since the last line)
+2026-10-18 04:36:25.697 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000000000000 (0 updates since the last line)
+2026-10-18 04:36:26.448 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000001000000 (1 updates since the last line)
+2026-10-18 04:36:26.949 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000000000000 (0 updates since the last line)
+2026-10-18 04:36:27.451 [thread 25] RA01 crosshair probe: manager 0x23607DACBC0, crosshair widget 0x231FA692430, switch +0x269 = 153, brightness +0x278 = 0.00, flags +0x280..287 = 0001000001000000 (1 updates since the last line)
+2026-10-18 04:36:32.479 [thread 40] RA01 what V holds: Gun (Handgun (pistol)) - from the game's weapon events

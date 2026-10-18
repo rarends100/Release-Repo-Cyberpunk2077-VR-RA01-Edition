@@ -1,0 +1,387 @@
+2026-10-18 04:34:22.770 [thread 1] RA01 pose hook installed at RVA 0x4B6968
+2026-10-18 04:34:24.082 [thread 19] RA01 player skeleton: found V - skeleton 0x231F7B3DA48, 294 bones, 1 body, alive 0.0 s
+2026-10-18 04:34:24.379 [thread 43] RA01 VRIK weapon hooks: WeaponRight slot 28, WeaponLeft slot 26
+2026-10-18 04:34:24.379 [thread 43] RA01 VRIK bone map: name list 294 bones (V's live list has 294), parent list found, arm chains OK
+RA01   Root           slot   0, parent none
+RA01   Spine3         slot  13, parent slot 10
+RA01   Neck           slot  16, parent Spine3
+RA01   Head           slot  22, parent slot 19
+RA01   LeftShoulder   slot  14, parent Spine3
+RA01   LeftArm        slot  17, parent LeftShoulder
+RA01   LeftForeArm    slot  20, parent LeftArm
+RA01   LeftHand       slot  23, parent LeftForeArm
+RA01   RightShoulder  slot  15, parent Spine3
+RA01   RightArm       slot  18, parent RightShoulder
+RA01   RightForeArm   slot  21, parent RightArm
+RA01   RightHand      slot  24, parent RightForeArm
+2026-10-18 04:34:24.380 [thread 43] RA01 VRIK rest pose: found (294 bones) - checked against the live bone lengths on the first frame
+2026-10-18 04:34:24.383 [thread 17] RA01 strike recorder: 0 cyberware bones found in V's rig (294 bones)
+2026-10-18 04:34:24.383 [thread 17] RA01 VRIK live check (294 live bones):
+RA01   Root           offset from parent (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   Spine3         offset from parent (0.1138, -0.0000, 0.0000) = 0.1138 m
+RA01   Neck           offset from parent (0.1745, 0.0000, -0.0000) = 0.1745 m
+RA01   Head           offset from parent (0.0730, 0.0000, -0.0000) = 0.0730 m
+RA01   LeftShoulder   offset from parent (0.1105, -0.0616, -0.0186) = 0.1278 m
+RA01   LeftArm        offset from parent (0.1742, 0.0000, -0.0000) = 0.1742 m
+RA01   LeftForeArm    offset from parent (0.2904, 0.0000, -0.0000) = 0.2904 m
+RA01   LeftHand       offset from parent (0.2753, -0.0000, 0.0000) = 0.2753 m
+RA01   RightShoulder  offset from parent (0.1105, -0.0616, 0.0166) = 0.1276 m
+RA01   RightArm       offset from parent (-0.1742, 0.0000, -0.0000) = 0.1742 m
+RA01   RightForeArm   offset from parent (-0.2904, 0.0000, -0.0000) = 0.2904 m
+RA01   RightHand      offset from parent (-0.2753, -0.0000, 0.0000) = 0.2753 m
+RA01   live slot  0: (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   live slot  1: (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   live slot  2: (-0.0274, -0.1486, 0.9775) = 0.9891 m
+RA01   live slot  3: (-0.0010, -0.2004, -0.0010) = 0.2004 m
+RA01   live slot  4: (0.0860, -0.0000, -0.0000) = 0.0860 m
+RA01   live slot  5: (0.0000, -0.0000, -0.0767) = 0.0767 m
+RA01   live slot  6: (-0.0000, 0.0000, 0.0767) = 0.0767 m
+RA01   live slot  7: (0.0686, 0.0000, 0.0000) = 0.0686 m
+RA01   live slot  8: (0.4311, -0.0000, -0.0000) = 0.4311 m
+RA01   live slot  9: (-0.4311, 0.0000, 0.0000) = 0.4311 m
+RA01   live slot 10: (0.0876, -0.0000, 0.0000) = 0.0876 m
+RA01   live slot 11: (0.4690, -0.0000, -0.0000) = 0.4690 m
+RA01   live slot 12: (-0.4690, 0.0000, 0.0000) = 0.4690 m
+RA01   live slot 13: (0.1138, -0.0000, 0.0000) = 0.1138 m
+RA01   live slot 14: (0.1105, -0.0616, -0.0186) = 0.1278 m
+RA01   live slot 15: (0.1105, -0.0616, 0.0166) = 0.1276 m
+RA01   live slot 16: (0.1745, 0.0000, -0.0000) = 0.1745 m
+RA01   live slot 17: (0.1742, 0.0000, -0.0000) = 0.1742 m
+RA01   live slot 18: (-0.1742, 0.0000, -0.0000) = 0.1742 m
+RA01   live slot 19: (0.0633, 0.0000, 0.0000) = 0.0633 m
+RA01   live slot 20: (0.2904, 0.0000, -0.0000) = 0.2904 m
+RA01   live slot 21: (-0.2904, 0.0000, -0.0000) = 0.2904 m
+RA01   live slot 22: (0.0730, 0.0000, -0.0000) = 0.0730 m
+RA01   live slot 23: (0.2753, -0.0000, 0.0000) = 0.2753 m
+RA01   live slot 24: (-0.2753, -0.0000, 0.0000) = 0.2753 m
+RA01   live slot 25: (0.0791, 0.0000, 0.0000) = 0.0791 m
+2026-10-18 04:34:24.383 [thread 17] RA01 VRIK weapon probe: WeaponRight at (0.238, -0.091, 0.775), 11 cm from her right hand; WeaponLeft at (-0.290, -0.059, 0.787), 11 cm from her left hand; right controller target not tracked; no gun animated
+2026-10-18 04:34:24.465 [thread 35] RA01 game anchor: engine 0x235D938A9E0, state 3 (3 = running)
+2026-10-18 04:34:24.465 [thread 35] RA01 game anchor: 149 game systems - player system found, UI system found
+2026-10-18 04:34:24.465 [thread 35] RA01 game anchor: V's fields - right-hand weapon at +0x780 (value holder), melee state at +0x79C (value holder), vehicle at +0x450, vehicle state at +0x770, scene tier at +0x7C0, grenade state at +0x7BC
+2026-10-18 04:34:24.466 [thread 35] RA01 game anchor: V 0x235EDCE3500 (status 4, 4 = in the world), 1 skeleton(s), first 0x231F7B3DA48
+2026-10-18 04:34:24.466 [thread 35] RA01 game anchor (menu watcher): UI+0xA8 0->1 UI+0xAC 0->1 - old signals: mouse says MENU, camera not built
+2026-10-18 04:34:29.375 [thread 9] RA01 VRIK weapon probe: WeaponRight at (0.238, -0.091, 0.775), 11 cm from her right hand; WeaponLeft at (-0.290, -0.059, 0.787), 11 cm from her left hand; right controller target not tracked; no gun animated
+2026-10-18 04:34:34.377 [thread 8] RA01 VRIK weapon probe: WeaponRight at (0.238, -0.091, 0.775), 11 cm from her right hand; WeaponLeft at (-0.290, -0.059, 0.787), 11 cm from her left hand; right controller target not tracked; no gun animated
+2026-10-18 04:34:39.378 [thread 16] RA01 VRIK weapon probe: WeaponRight at (0.238, -0.091, 0.775), 11 cm from her right hand; WeaponLeft at (-0.290, -0.059, 0.787), 11 cm from her left hand; right controller target not tracked; no gun animated
+2026-10-18 04:34:44.377 [thread 13] RA01 VRIK weapon probe: WeaponRight at (0.238, -0.091, 0.775), 11 cm from her right hand; WeaponLeft at (-0.290, -0.059, 0.787), 11 cm from her left hand; right controller target not tracked; no gun animated
+2026-10-18 04:34:48.603 [thread 35] RA01 game anchor (menu watcher): TIME+0x60 0->699850 TIME+0x70 0->1058043286 TIME+0x78 0->699850 TIME+0x88 0->699850 TIME+0xE0 1->0 TIME+0x120 -1->65538 TIME+0x128 0->65540 TIME+0x140 0->-65536 TIME+0x158 0->262143 TIME+0x170 0->327682 TIME+0x188 0->5 TIME+0x1A0 0->262147 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:48.704 [thread 35] RA01 game anchor (menu watcher): TIME+0x60 699850->1701223 TIME+0x70 1058043286->1052660080 TIME+0x78 699850->1701223 TIME+0x88 699850->1701223 TIME+0x100 43200->43201 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:48.804 [thread 35] RA01 game anchor (menu watcher): TIME+0x60 1701223->2722684 TIME+0x70 1052660080->1044907256 TIME+0x78 1701223->2722684 TIME+0x88 1701223->2722684 TIME+0x100 43201->43202 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:48.905 [thread 35] RA01 game anchor (menu watcher): TIME+0x60 2722684->3719837 TIME+0x70 1044907256->1065342296 TIME+0x78 2722684->3719837 TIME+0x88 2722684->3719837 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:49.005 [thread 35] RA01 game anchor (menu watcher): TIME+0x60 3719837->4724976 TIME+0x70 1065342296->1062162344 TIME+0x78 3719837->4724976 TIME+0x88 3719837->4724976 TIME+0x100 43202->43203 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:49.106 [thread 35] RA01 game anchor (menu watcher): TIME+0x60 4724976->5710950 TIME+0x70 1062162344->1058723125 TIME+0x78 4724976->5710950 TIME+0x88 4724976->5710950 TIME+0x100 43203->43204 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:49.206 [thread 35] RA01 game anchor (menu watcher): TIME+0x60 5710950->6734454 TIME+0x70 1058723125->1054618582 TIME+0x78 5710950->6734454 TIME+0x88 5710950->6734454 TIME+0x100 43204->43205 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:49.307 [thread 35] RA01 game anchor (menu watcher): TIME+0x60 6734454->7729225 (changes often - no longer listed) TIME+0x70 1054618582->1047379917 (changes often - no longer listed) TIME+0x78 6734454->7729225 (changes often - no longer listed) TIME+0x88 6734454->7729225 (changes often - no longer listed) TIME+0x100 43205->43206 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:49.375 [thread 3] RA01 VRIK weapon probe: WeaponRight at (0.216, -0.076, 0.791), 11 cm from her right hand; WeaponLeft at (-0.289, -0.067, 0.801), 11 cm from her left hand; right controller target not tracked; no gun animated
+2026-10-18 04:34:49.407 [thread 35] RA01 game anchor (menu watcher): TIME+0x100 43206->43207 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:49.609 [thread 35] RA01 game anchor (menu watcher): TIME+0x100 43207->43208 (changes often - no longer listed) - old signals: mouse says MENU, camera built
+2026-10-18 04:34:54.376 [thread 23] RA01 VRIK weapon probe: WeaponRight at (0.236, -0.084, 0.792), 11 cm from her right hand; WeaponLeft at (-0.291, -0.056, 0.802), 11 cm from her left hand; right controller target not tracked; no gun animated
+2026-10-18 04:34:55.240 [thread 35] RA01 game anchor: no V right now (loading or start screen)
+2026-10-18 04:34:55.240 [thread 35] RA01 game anchor: loading screen UP
+2026-10-18 04:34:55.240 [thread 35] RA01 game anchor (menu watcher): UI+0xAC 1->0 TIME+0x98 0->-1665650165 TIME+0x9C 0->1075479553 TIME+0xC0 0->-1201160192 TIME+0xC4 0->1078199644 TIME+0xFC 6->12 TIME+0x118 6->0 TIME+0x120 65538->-1 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:55.341 [thread 35] RA01 game anchor (menu watcher): TIME+0x64 0->126 TIME+0x7C 0->144 TIME+0x8C 0->128 TIME+0xA0 0->1970168141 TIME+0xA4 0->1632857185 TIME+0xA8 0->841835894 TIME+0xAC 0->524288 TIME+0xB0 0->263 TIME+0xB4 0->12 TIME+0xC8 0->256 TIME+0x118 0->38166 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:56.142 [thread 35] RA01 game anchor (menu watcher): TIME+0x118 38166->38170 - old signals: mouse says MENU, camera not built
+2026-10-18 04:34:56.642 [thread 35] RA01 game anchor (menu watcher): TIME+0x118 38170->38188 - old signals: mouse says MENU, camera not built
+2026-10-18 04:34:56.743 [thread 35] RA01 game anchor (menu watcher): TIME+0x118 38188->38194 - old signals: mouse says MENU, camera not built
+2026-10-18 04:34:56.844 [thread 35] RA01 game anchor (menu watcher): UI+0xAC 0->1 TIME+0xC8 256->0 - old signals: mouse says MENU, camera not built
+2026-10-18 04:34:57.045 [thread 35] RA01 game anchor: V 0x235F10B0790 (status 4, 4 = in the world), 1 skeleton(s), first 0x231F81778C8
+2026-10-18 04:34:57.045 [thread 35] RA01 game anchor: loading screen gone
+2026-10-18 04:34:57.045 [thread 35] RA01 game anchor (menu watcher): TIME+0x118 38194->38196 - old signals: mouse says MENU, camera built
+2026-10-18 04:34:59.158 [thread 35] RA01 game anchor: V 0x235F10B0790 (status 4, 4 = in the world), 1 skeleton(s), first 0x231DCE80AA0
+2026-10-18 04:34:59.158 [thread 35] RA01 game anchor (menu watcher): TIME+0x118 38196->38216 - old signals: mouse says MENU, camera not built
+2026-10-18 04:34:59.287 [thread 16] RA01 player skeleton: V's body 0x231DCE80AA0 (619 bones) taken from the game's own record of V (was 0x231F7B3DA48)
+2026-10-18 04:34:59.288 [thread 32] RA01 VRIK weapon hooks: WeaponRight slot 28, WeaponLeft slot 26
+2026-10-18 04:34:59.288 [thread 32] RA01 VRIK bone map: name list 619 bones (V's live list has 619), parent list found, arm chains OK
+RA01   Root           slot   0, parent none
+RA01   Spine3         slot  13, parent slot 10
+RA01   Neck           slot  16, parent Spine3
+RA01   Head           slot  22, parent slot 19
+RA01   LeftShoulder   slot  14, parent Spine3
+RA01   LeftArm        slot  17, parent LeftShoulder
+RA01   LeftForeArm    slot  20, parent LeftArm
+RA01   LeftHand       slot  23, parent LeftForeArm
+RA01   RightShoulder  slot  15, parent Spine3
+RA01   RightArm       slot  18, parent RightShoulder
+RA01   RightForeArm   slot  21, parent RightArm
+RA01   RightHand      slot  24, parent RightForeArm
+2026-10-18 04:34:59.288 [thread 32] RA01 VRIK rest pose: found (619 bones) - checked against the live bone lengths on the first frame
+2026-10-18 04:34:59.296 [thread 7] RA01 strike recorder: 0 cyberware bones found in V's rig (619 bones)
+2026-10-18 04:34:59.296 [thread 7] RA01 VRIK live check (619 live bones):
+RA01   Root           offset from parent (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   Spine3         offset from parent (0.1185, 0.0000, -0.0000) = 0.1185 m
+RA01   Neck           offset from parent (0.1590, 0.0000, 0.0000) = 0.1590 m
+RA01   Head           offset from parent (0.0691, -0.0000, 0.0000) = 0.0691 m
+RA01   LeftShoulder   offset from parent (0.1412, -0.0891, -0.0199) = 0.1682 m
+RA01   LeftArm        offset from parent (0.1742, 0.0000, 0.0000) = 0.1742 m
+RA01   LeftForeArm    offset from parent (0.2904, -0.0000, -0.0000) = 0.2904 m
+RA01   LeftHand       offset from parent (0.2753, 0.0000, 0.0000) = 0.2753 m
+RA01   RightShoulder  offset from parent (0.1412, -0.0891, 0.0200) = 0.1682 m
+RA01   RightArm       offset from parent (-0.1742, 0.0000, 0.0000) = 0.1742 m
+RA01   RightForeArm   offset from parent (-0.2904, -0.0000, -0.0000) = 0.2904 m
+RA01   RightHand      offset from parent (-0.2753, -0.0000, 0.0000) = 0.2753 m
+RA01   live slot  0: (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   live slot  1: (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   live slot  2: (-0.0059, -0.2092, 0.9482) = 0.9710 m
+RA01   live slot  3: (-0.0010, -0.2004, -0.0010) = 0.2004 m
+RA01   live slot  4: (0.1025, -0.0000, 0.0000) = 0.1025 m
+RA01   live slot  5: (0.0000, -0.0000, -0.0830) = 0.0830 m
+RA01   live slot  6: (-0.0000, 0.0000, 0.0830) = 0.0830 m
+RA01   live slot  7: (0.0761, -0.0000, 0.0000) = 0.0761 m
+RA01   live slot  8: (0.4429, 0.0000, -0.0000) = 0.4429 m
+RA01   live slot  9: (-0.4429, 0.0000, 0.0000) = 0.4429 m
+RA01   live slot 10: (0.0938, 0.0000, -0.0000) = 0.0938 m
+RA01   live slot 11: (0.4251, 0.0000, -0.0000) = 0.4251 m
+RA01   live slot 12: (-0.4251, 0.0000, 0.0000) = 0.4251 m
+RA01   live slot 13: (0.1185, 0.0000, -0.0000) = 0.1185 m
+RA01   live slot 14: (0.1412, -0.0891, -0.0199) = 0.1682 m
+RA01   live slot 15: (0.1412, -0.0891, 0.0200) = 0.1682 m
+RA01   live slot 16: (0.1590, 0.0000, 0.0000) = 0.1590 m
+RA01   live slot 17: (0.1742, 0.0000, 0.0000) = 0.1742 m
+RA01   live slot 18: (-0.1742, 0.0000, 0.0000) = 0.1742 m
+RA01   live slot 19: (0.0790, 0.0000, 0.0000) = 0.0790 m
+RA01   live slot 20: (0.2904, -0.0000, -0.0000) = 0.2904 m
+RA01   live slot 21: (-0.2904, -0.0000, -0.0000) = 0.2904 m
+RA01   live slot 22: (0.0691, -0.0000, 0.0000) = 0.0691 m
+RA01   live slot 23: (0.2753, 0.0000, 0.0000) = 0.2753 m
+RA01   live slot 24: (-0.2753, -0.0000, 0.0000) = 0.2753 m
+RA01   live slot 25: (0.0791, -0.0000, 0.0001) = 0.0791 m
+2026-10-18 04:34:59.377 [thread 15] RA01 VRIK weapon probe: WeaponRight at (0.257, -0.086, 0.875), 10 cm from her right hand; WeaponLeft at (-0.230, -0.161, 0.871), 10 cm from her left hand; right controller target not tracked; no gun animated
+2026-10-18 04:34:59.560 [thread 35] RA01 game anchor (menu watcher): TIME+0x118 38216->38242 (changes often - no longer listed) - old signals: mouse says MENU, camera not built
+2026-10-18 04:35:04.377 [thread 12] RA01 VRIK weapon probe: WeaponRight at (0.257, -0.086, 0.875), 10 cm from her right hand; WeaponLeft at (-0.230, -0.161, 0.871), 10 cm from her left hand; right controller target not tracked; no gun animated
+2026-10-18 04:35:06.701 [thread 35] RA01 game anchor (menu watcher): TIME+0x120 -1->983091 TIME+0x128 65540->26607622 TIME+0x140 -65536->25034756 TIME+0x158 262143->25755656 TIME+0x170 327682->25165829 TIME+0x188 5->65602 TIME+0x1A0 262147->196670 TIME+0x1B8 0->105 TIME+0x1D0 0->7602230 TIME+0x1E8 0->131323 TIME+0x200 0->917689 TIME+0x218 0->1179662 TIME+0x230 0->16449554 TIME+0x248 0->12779548 TIME+0x260 0->1048648 TIME+0x278 0->655369 TIME+0x290 0->-65479 TIME+0x2A8 0->12124173 TIME+0x2C0 0->22806584 TIME+0x2D8 0->720906 TIME+0x2F0 0->6357176 TIME+0x308 0->26149061 TIME+0x320 0->3211371 TIME+0x338 0->23986236 TIME+0x350 0->26935346 TIME+0x368 0->22741187 TIME+0x380 0->3408039 TIME+0x398 0->24117597 TIME+0x3B0 0->15466549 TIME+0x3C8 0->786461 TIME+0x3E0 0->1835038 TIME+0x3F8 0->1900575 - old signals: mouse says MENU, camera not built
+2026-10-18 04:35:09.014 [thread 35] RA01 game anchor (menu watcher): UI+0xA8 1->6 UI+0xAC 1->6 - old signals: mouse says MENU, camera built
+2026-10-18 04:35:09.215 [thread 35] RA01 game anchor (menu watcher): UI+0xA8 6->9 UI+0xAC 6->7 - old signals: mouse says MENU, camera built
+2026-10-18 04:35:09.377 [thread 17] RA01 VRIK weapon probe: WeaponRight at (0.252, -0.094, 0.863), 10 cm from her right hand; WeaponLeft at (-0.228, -0.158, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.353, 0.169, 0.305), 63 cm from WeaponRight along (0.16, 0.42, -0.89); muzzle axes on V: x (0.69, 0.60, 0.41) y (0.19, 0.39, -0.90) z (-0.70, 0.70, 0.15)
+2026-10-18 04:35:10.379 [thread 6] RA01 VRIK weapon probe: WeaponRight at (0.256, -0.092, 0.865), 10 cm from her right hand; WeaponLeft at (-0.224, -0.169, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.349, 0.183, 0.311), 63 cm from WeaponRight along (0.15, 0.44, -0.89); muzzle axes on V: x (0.66, 0.62, 0.42) y (0.18, 0.41, -0.89) z (-0.73, 0.67, 0.16)
+2026-10-18 04:35:11.380 [thread 7] RA01 VRIK weapon probe: WeaponRight at (0.246, -0.098, 0.861), 10 cm from her right hand; WeaponLeft at (-0.233, -0.166, 0.871), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.337, 0.163, 0.300), 63 cm from WeaponRight along (0.15, 0.42, -0.90); muzzle axes on V: x (0.67, 0.62, 0.40) y (0.18, 0.39, -0.90) z (-0.72, 0.68, 0.15)
+2026-10-18 04:35:12.376 [thread 14] RA01 VRIK weapon probe: WeaponRight at (0.256, -0.100, 0.865), 10 cm from her right hand; WeaponLeft at (-0.224, -0.166, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.350, 0.162, 0.305), 63 cm from WeaponRight along (0.15, 0.42, -0.90); muzzle axes on V: x (0.67, 0.62, 0.40) y (0.18, 0.39, -0.90) z (-0.72, 0.68, 0.15)
+2026-10-18 04:35:13.378 [thread 22] RA01 VRIK weapon probe: WeaponRight at (0.257, -0.088, 0.873), 10 cm from her right hand; WeaponLeft at (-0.229, -0.166, 0.872), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.342, 0.177, 0.313), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.65, 0.64, 0.40) y (0.17, 0.40, -0.90) z (-0.74, 0.66, 0.15)
+2026-10-18 04:35:14.376 [thread 9] RA01 VRIK weapon probe: WeaponRight at (0.263, -0.076, 0.885), 10 cm from her right hand; WeaponLeft at (-0.232, -0.148, 0.878), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.348, 0.195, 0.328), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.63, 0.66, 0.42) y (0.17, 0.41, -0.90) z (-0.76, 0.63, 0.14)
+2026-10-18 04:35:15.378 [thread 6] RA01 VRIK weapon probe: WeaponRight at (0.262, -0.102, 0.865), 10 cm from her right hand; WeaponLeft at (-0.234, -0.166, 0.870), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.335, 0.148, 0.297), 63 cm from WeaponRight along (0.12, 0.40, -0.91); muzzle axes on V: x (0.59, 0.71, 0.39) y (0.15, 0.37, -0.92) z (-0.79, 0.60, 0.11)
+2026-10-18 04:35:16.376 [thread 20] RA01 VRIK weapon probe: WeaponRight at (0.250, -0.092, 0.863), 10 cm from her right hand; WeaponLeft at (-0.227, -0.158, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.349, 0.173, 0.306), 63 cm from WeaponRight along (0.16, 0.42, -0.89); muzzle axes on V: x (0.69, 0.60, 0.41) y (0.19, 0.39, -0.90) z (-0.70, 0.69, 0.16)
+2026-10-18 04:35:17.377 [thread 5] RA01 VRIK weapon probe: WeaponRight at (0.255, -0.090, 0.865), 10 cm from her right hand; WeaponLeft at (-0.225, -0.171, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.346, 0.186, 0.311), 63 cm from WeaponRight along (0.14, 0.44, -0.89); muzzle axes on V: x (0.65, 0.63, 0.42) y (0.18, 0.41, -0.89) z (-0.73, 0.66, 0.16)
+2026-10-18 04:35:18.379 [thread 4] RA01 VRIK weapon probe: WeaponRight at (0.246, -0.099, 0.861), 10 cm from her right hand; WeaponLeft at (-0.232, -0.167, 0.870), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.337, 0.161, 0.299), 63 cm from WeaponRight along (0.15, 0.42, -0.90); muzzle axes on V: x (0.67, 0.62, 0.40) y (0.18, 0.39, -0.91) z (-0.72, 0.68, 0.15)
+2026-10-18 04:35:19.380 [thread 23] RA01 VRIK weapon probe: WeaponRight at (0.255, -0.099, 0.865), 10 cm from her right hand; WeaponLeft at (-0.225, -0.166, 0.867), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.348, 0.164, 0.306), 63 cm from WeaponRight along (0.15, 0.42, -0.90); muzzle axes on V: x (0.67, 0.62, 0.40) y (0.18, 0.39, -0.90) z (-0.72, 0.68, 0.15)
+2026-10-18 04:35:20.380 [thread 3] RA01 VRIK weapon probe: WeaponRight at (0.257, -0.089, 0.873), 10 cm from her right hand; WeaponLeft at (-0.228, -0.166, 0.872), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.341, 0.176, 0.313), 63 cm from WeaponRight along (0.14, 0.42, -0.90); muzzle axes on V: x (0.65, 0.64, 0.40) y (0.17, 0.40, -0.90) z (-0.74, 0.66, 0.15)
+2026-10-18 04:35:21.377 [thread 7] RA01 VRIK weapon probe: WeaponRight at (0.263, -0.076, 0.886), 10 cm from her right hand; WeaponLeft at (-0.231, -0.148, 0.877), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.347, 0.195, 0.329), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.63, 0.66, 0.42) y (0.17, 0.41, -0.90) z (-0.76, 0.63, 0.14)
+2026-10-18 04:35:22.379 [thread 9] RA01 VRIK weapon probe: WeaponRight at (0.259, -0.103, 0.866), 10 cm from her right hand; WeaponLeft at (-0.234, -0.165, 0.870), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.324, 0.147, 0.296), 63 cm from WeaponRight along (0.10, 0.40, -0.91); muzzle axes on V: x (0.58, 0.72, 0.38) y (0.14, 0.37, -0.92) z (-0.80, 0.59, 0.12)
+2026-10-18 04:35:23.377 [thread 21] RA01 VRIK weapon probe: WeaponRight at (0.249, -0.091, 0.864), 10 cm from her right hand; WeaponLeft at (-0.227, -0.158, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.345, 0.176, 0.306), 63 cm from WeaponRight along (0.15, 0.43, -0.89); muzzle axes on V: x (0.69, 0.60, 0.41) y (0.19, 0.40, -0.90) z (-0.70, 0.69, 0.16)
+2026-10-18 04:35:24.381 [thread 9] RA01 VRIK weapon probe: WeaponRight at (0.255, -0.090, 0.864), 10 cm from her right hand; WeaponLeft at (-0.225, -0.173, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.344, 0.185, 0.310), 63 cm from WeaponRight along (0.14, 0.44, -0.89); muzzle axes on V: x (0.65, 0.63, 0.42) y (0.18, 0.41, -0.89) z (-0.74, 0.66, 0.16)
+2026-10-18 04:35:25.379 [thread 3] RA01 VRIK weapon probe: WeaponRight at (0.247, -0.101, 0.860), 10 cm from her right hand; WeaponLeft at (-0.232, -0.167, 0.870), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.339, 0.157, 0.298), 63 cm from WeaponRight along (0.15, 0.41, -0.90); muzzle axes on V: x (0.68, 0.62, 0.40) y (0.18, 0.38, -0.91) z (-0.71, 0.68, 0.15)
+2026-10-18 04:35:26.381 [thread 22] RA01 VRIK weapon probe: WeaponRight at (0.253, -0.098, 0.865), 10 cm from her right hand; WeaponLeft at (-0.226, -0.166, 0.867), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.344, 0.167, 0.306), 63 cm from WeaponRight along (0.15, 0.42, -0.89); muzzle axes on V: x (0.67, 0.62, 0.40) y (0.18, 0.39, -0.90) z (-0.72, 0.68, 0.15)
+2026-10-18 04:35:27.377 [thread 9] RA01 VRIK weapon probe: WeaponRight at (0.256, -0.090, 0.872), 10 cm from her right hand; WeaponLeft at (-0.229, -0.167, 0.871), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.340, 0.175, 0.312), 63 cm from WeaponRight along (0.13, 0.42, -0.90); muzzle axes on V: x (0.65, 0.64, 0.40) y (0.17, 0.39, -0.90) z (-0.74, 0.66, 0.15)
+2026-10-18 04:35:28.017 [thread 35] RA01 game anchor (menu watcher): TIME+0xE0 0->1 - old signals: mouse says MENU, camera built
+2026-10-18 04:35:28.118 [thread 35] RA01 game anchor (menu watcher): TIME+0xE0 1->0 - old signals: mouse says MENU, camera built
+2026-10-18 04:35:28.380 [thread 10] RA01 VRIK weapon probe: WeaponRight at (0.262, -0.076, 0.886), 10 cm from her right hand; WeaponLeft at (-0.231, -0.149, 0.877), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.346, 0.195, 0.329), 63 cm from WeaponRight along (0.13, 0.43, -0.89); muzzle axes on V: x (0.63, 0.66, 0.41) y (0.17, 0.41, -0.90) z (-0.76, 0.63, 0.14)
+2026-10-18 04:35:29.379 [thread 16] RA01 VRIK weapon probe: WeaponRight at (0.258, -0.101, 0.867), 10 cm from her right hand; WeaponLeft at (-0.234, -0.166, 0.870), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.318, 0.150, 0.298), 63 cm from WeaponRight along (0.10, 0.40, -0.91); muzzle axes on V: x (0.58, 0.72, 0.38) y (0.13, 0.38, -0.92) z (-0.80, 0.58, 0.12)
+2026-10-18 04:35:30.378 [thread 3] RA01 VRIK weapon probe: WeaponRight at (0.247, -0.090, 0.864), 10 cm from her right hand; WeaponLeft at (-0.226, -0.158, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.341, 0.174, 0.305), 63 cm from WeaponRight along (0.15, 0.42, -0.89); muzzle axes on V: x (0.68, 0.61, 0.40) y (0.18, 0.39, -0.90) z (-0.71, 0.69, 0.16)
+2026-10-18 04:35:31.381 [thread 24] RA01 VRIK weapon probe: WeaponRight at (0.254, -0.090, 0.864), 10 cm from her right hand; WeaponLeft at (-0.226, -0.174, 0.869), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.342, 0.184, 0.309), 63 cm from WeaponRight along (0.14, 0.44, -0.89); muzzle axes on V: x (0.65, 0.64, 0.42) y (0.17, 0.41, -0.90) z (-0.74, 0.65, 0.15)
+2026-10-18 04:35:32.379 [thread 18] RA01 VRIK weapon probe: WeaponRight at (0.247, -0.103, 0.860), 10 cm from her right hand; WeaponLeft at (-0.231, -0.166, 0.870), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.341, 0.153, 0.297), 63 cm from WeaponRight along (0.15, 0.41, -0.90); muzzle axes on V: x (0.68, 0.62, 0.39) y (0.18, 0.38, -0.91) z (-0.71, 0.69, 0.15)
+2026-10-18 04:35:33.379 [thread 8] RA01 VRIK weapon probe: WeaponRight at (0.252, -0.096, 0.865), 10 cm from her right hand; WeaponLeft at (-0.227, -0.167, 0.867), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.342, 0.170, 0.307), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.67, 0.62, 0.40) y (0.18, 0.40, -0.90) z (-0.72, 0.68, 0.16)
+2026-10-18 04:35:34.378 [thread 10] RA01 VRIK weapon probe: WeaponRight at (0.256, -0.091, 0.871), 10 cm from her right hand; WeaponLeft at (-0.229, -0.167, 0.871), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.339, 0.174, 0.311), 63 cm from WeaponRight along (0.13, 0.42, -0.90); muzzle axes on V: x (0.66, 0.64, 0.40) y (0.17, 0.39, -0.90) z (-0.74, 0.66, 0.15)
+2026-10-18 04:35:35.379 [thread 11] RA01 VRIK weapon probe: WeaponRight at (0.262, -0.076, 0.886), 10 cm from her right hand; WeaponLeft at (-0.231, -0.149, 0.877), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.345, 0.195, 0.329), 63 cm from WeaponRight along (0.13, 0.43, -0.89); muzzle axes on V: x (0.63, 0.66, 0.41) y (0.17, 0.41, -0.90) z (-0.76, 0.63, 0.14)
+2026-10-18 04:35:36.378 [thread 21] RA01 VRIK weapon probe: WeaponRight at (0.256, -0.100, 0.868), 10 cm from her right hand; WeaponLeft at (-0.234, -0.165, 0.870), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.315, 0.155, 0.300), 63 cm from WeaponRight along (0.09, 0.41, -0.91); muzzle axes on V: x (0.59, 0.71, 0.38) y (0.13, 0.38, -0.92) z (-0.80, 0.59, 0.13)
+2026-10-18 04:35:37.381 [thread 16] RA01 VRIK weapon probe: WeaponRight at (0.246, -0.089, 0.864), 10 cm from her right hand; WeaponLeft at (-0.226, -0.158, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.336, 0.178, 0.306), 63 cm from WeaponRight along (0.15, 0.43, -0.89); muzzle axes on V: x (0.68, 0.61, 0.40) y (0.18, 0.40, -0.90) z (-0.71, 0.69, 0.16)
+2026-10-18 04:35:38.380 [thread 11] RA01 VRIK weapon probe: WeaponRight at (0.254, -0.090, 0.863), 10 cm from her right hand; WeaponLeft at (-0.226, -0.175, 0.869), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.341, 0.182, 0.307), 63 cm from WeaponRight along (0.14, 0.44, -0.89); muzzle axes on V: x (0.65, 0.64, 0.41) y (0.17, 0.41, -0.90) z (-0.74, 0.65, 0.15)
+2026-10-18 04:35:39.377 [thread 9] RA01 VRIK weapon probe: WeaponRight at (0.248, -0.106, 0.860), 10 cm from her right hand; WeaponLeft at (-0.230, -0.165, 0.869), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.344, 0.150, 0.297), 63 cm from WeaponRight along (0.15, 0.41, -0.90); muzzle axes on V: x (0.69, 0.61, 0.39) y (0.19, 0.38, -0.91) z (-0.70, 0.70, 0.15)
+2026-10-18 04:35:40.379 [thread 10] RA01 VRIK weapon probe: WeaponRight at (0.251, -0.095, 0.865), 10 cm from her right hand; WeaponLeft at (-0.227, -0.166, 0.867), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.341, 0.172, 0.307), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.67, 0.62, 0.41) y (0.18, 0.40, -0.90) z (-0.72, 0.68, 0.16)
+2026-10-18 04:35:41.379 [thread 18] RA01 VRIK weapon probe: WeaponRight at (0.255, -0.091, 0.871), 10 cm from her right hand; WeaponLeft at (-0.229, -0.167, 0.871), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.338, 0.173, 0.311), 63 cm from WeaponRight along (0.13, 0.42, -0.90); muzzle axes on V: x (0.66, 0.64, 0.40) y (0.17, 0.39, -0.90) z (-0.74, 0.66, 0.15)
+2026-10-18 04:35:42.379 [thread 30] RA01 VRIK weapon probe: WeaponRight at (0.261, -0.076, 0.886), 10 cm from her right hand; WeaponLeft at (-0.231, -0.150, 0.876), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.344, 0.195, 0.328), 63 cm from WeaponRight along (0.13, 0.43, -0.89); muzzle axes on V: x (0.63, 0.66, 0.41) y (0.17, 0.41, -0.90) z (-0.76, 0.63, 0.15)
+2026-10-18 04:35:43.379 [thread 8] RA01 VRIK weapon probe: WeaponRight at (0.255, -0.098, 0.868), 10 cm from her right hand; WeaponLeft at (-0.233, -0.164, 0.870), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.314, 0.160, 0.301), 63 cm from WeaponRight along (0.09, 0.41, -0.91); muzzle axes on V: x (0.60, 0.70, 0.38) y (0.13, 0.39, -0.91) z (-0.79, 0.60, 0.14)
+2026-10-18 04:35:44.379 [thread 9] RA01 VRIK weapon probe: WeaponRight at (0.243, -0.089, 0.864), 10 cm from her right hand; WeaponLeft at (-0.226, -0.157, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.329, 0.180, 0.306), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.68, 0.61, 0.40) y (0.17, 0.40, -0.90) z (-0.71, 0.68, 0.17)
+2026-10-18 04:35:45.381 [thread 7] RA01 VRIK weapon probe: WeaponRight at (0.253, -0.090, 0.863), 10 cm from her right hand; WeaponLeft at (-0.227, -0.177, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.340, 0.182, 0.307), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.65, 0.64, 0.41) y (0.17, 0.41, -0.90) z (-0.74, 0.65, 0.15)
+2026-10-18 04:35:46.377 [thread 7] RA01 VRIK weapon probe: WeaponRight at (0.248, -0.107, 0.860), 10 cm from her right hand; WeaponLeft at (-0.229, -0.164, 0.869), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.345, 0.148, 0.297), 63 cm from WeaponRight along (0.15, 0.41, -0.90); muzzle axes on V: x (0.69, 0.61, 0.39) y (0.19, 0.38, -0.91) z (-0.70, 0.70, 0.15)
+2026-10-18 04:35:47.379 [thread 9] RA01 VRIK weapon probe: WeaponRight at (0.250, -0.095, 0.865), 10 cm from her right hand; WeaponLeft at (-0.228, -0.166, 0.867), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.341, 0.173, 0.307), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.67, 0.62, 0.41) y (0.18, 0.40, -0.90) z (-0.72, 0.68, 0.16)
+2026-10-18 04:35:48.377 [thread 14] RA01 VRIK weapon probe: WeaponRight at (0.254, -0.092, 0.870), 10 cm from her right hand; WeaponLeft at (-0.229, -0.168, 0.871), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.336, 0.172, 0.310), 63 cm from WeaponRight along (0.13, 0.42, -0.90); muzzle axes on V: x (0.66, 0.64, 0.40) y (0.16, 0.39, -0.90) z (-0.73, 0.66, 0.16)
+2026-10-18 04:35:49.378 [thread 8] RA01 VRIK weapon probe: WeaponRight at (0.261, -0.076, 0.885), 10 cm from her right hand; WeaponLeft at (-0.231, -0.151, 0.876), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.343, 0.194, 0.328), 63 cm from WeaponRight along (0.13, 0.43, -0.89); muzzle axes on V: x (0.63, 0.66, 0.41) y (0.17, 0.41, -0.90) z (-0.76, 0.63, 0.15)
+2026-10-18 04:35:49.739 [thread 35] RA01 game anchor (menu watcher): TIME+0x7C 144->145 - old signals: mouse says MENU, camera built
+2026-10-18 04:35:50.380 [thread 5] RA01 VRIK weapon probe: WeaponRight at (0.255, -0.095, 0.869), 10 cm from her right hand; WeaponLeft at (-0.233, -0.163, 0.870), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.321, 0.166, 0.305), 63 cm from WeaponRight along (0.11, 0.42, -0.90); muzzle axes on V: x (0.61, 0.69, 0.39) y (0.14, 0.39, -0.91) z (-0.78, 0.61, 0.14)
+2026-10-18 04:35:51.378 [thread 6] RA01 VRIK weapon probe: WeaponRight at (0.241, -0.088, 0.864), 10 cm from her right hand; WeaponLeft at (-0.225, -0.157, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.322, 0.181, 0.305), 63 cm from WeaponRight along (0.13, 0.43, -0.89); muzzle axes on V: x (0.68, 0.62, 0.40) y (0.16, 0.40, -0.90) z (-0.72, 0.68, 0.17)
+2026-10-18 04:35:52.382 [thread 17] RA01 VRIK weapon probe: WeaponRight at (0.253, -0.090, 0.863), 10 cm from her right hand; WeaponLeft at (-0.227, -0.178, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.338, 0.182, 0.307), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.64, 0.64, 0.41) y (0.17, 0.41, -0.90) z (-0.75, 0.65, 0.15)
+2026-10-18 04:35:53.378 [thread 31] RA01 VRIK weapon probe: WeaponRight at (0.248, -0.108, 0.859), 10 cm from her right hand; WeaponLeft at (-0.228, -0.164, 0.870), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.345, 0.148, 0.297), 63 cm from WeaponRight along (0.15, 0.41, -0.90); muzzle axes on V: x (0.69, 0.60, 0.39) y (0.19, 0.38, -0.91) z (-0.70, 0.70, 0.15)
+2026-10-18 04:35:54.380 [thread 3] RA01 VRIK weapon probe: WeaponRight at (0.250, -0.093, 0.865), 10 cm from her right hand; WeaponLeft at (-0.228, -0.167, 0.867), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.339, 0.175, 0.307), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.67, 0.62, 0.41) y (0.18, 0.40, -0.90) z (-0.72, 0.67, 0.16)
+2026-10-18 04:35:55.379 [thread 23] RA01 VRIK weapon probe: WeaponRight at (0.253, -0.093, 0.870), 10 cm from her right hand; WeaponLeft at (-0.230, -0.168, 0.871), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.334, 0.172, 0.309), 63 cm from WeaponRight along (0.13, 0.42, -0.90); muzzle axes on V: x (0.66, 0.64, 0.40) y (0.16, 0.39, -0.90) z (-0.73, 0.66, 0.16)
+2026-10-18 04:35:56.381 [thread 17] RA01 VRIK weapon probe: WeaponRight at (0.260, -0.077, 0.885), 10 cm from her right hand; WeaponLeft at (-0.230, -0.152, 0.876), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.342, 0.194, 0.327), 63 cm from WeaponRight along (0.13, 0.43, -0.89); muzzle axes on V: x (0.63, 0.66, 0.41) y (0.17, 0.41, -0.90) z (-0.76, 0.63, 0.15)
+2026-10-18 04:35:57.380 [thread 19] RA01 VRIK weapon probe: WeaponRight at (0.256, -0.093, 0.870), 10 cm from her right hand; WeaponLeft at (-0.232, -0.162, 0.871), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.332, 0.172, 0.308), 63 cm from WeaponRight along (0.12, 0.42, -0.90); muzzle axes on V: x (0.63, 0.66, 0.40) y (0.16, 0.39, -0.91) z (-0.76, 0.63, 0.15)
+2026-10-18 04:35:58.378 [thread 18] RA01 VRIK weapon probe: WeaponRight at (0.239, -0.088, 0.864), 10 cm from her right hand; WeaponLeft at (-0.224, -0.157, 0.869), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.316, 0.181, 0.305), 63 cm from WeaponRight along (0.12, 0.43, -0.89); muzzle axes on V: x (0.67, 0.62, 0.39) y (0.16, 0.40, -0.90) z (-0.72, 0.67, 0.17)
+2026-10-18 04:35:59.378 [thread 21] RA01 VRIK weapon probe: WeaponRight at (0.252, -0.091, 0.862), 10 cm from her right hand; WeaponLeft at (-0.228, -0.179, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.336, 0.179, 0.305), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.64, 0.65, 0.41) y (0.17, 0.40, -0.90) z (-0.75, 0.65, 0.15)
+2026-10-18 04:36:00.380 [thread 7] RA01 VRIK weapon probe: WeaponRight at (0.249, -0.109, 0.860), 10 cm from her right hand; WeaponLeft at (-0.228, -0.164, 0.869), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.347, 0.149, 0.299), 63 cm from WeaponRight along (0.16, 0.41, -0.90); muzzle axes on V: x (0.70, 0.60, 0.40) y (0.19, 0.38, -0.91) z (-0.69, 0.71, 0.15)
+2026-10-18 04:36:01.382 [thread 9] RA01 VRIK weapon probe: WeaponRight at (0.250, -0.092, 0.865), 10 cm from her right hand; WeaponLeft at (-0.228, -0.166, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.340, 0.176, 0.307), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.67, 0.62, 0.41) y (0.18, 0.40, -0.90) z (-0.72, 0.67, 0.16)
+2026-10-18 04:36:02.379 [thread 11] RA01 VRIK weapon probe: WeaponRight at (0.253, -0.093, 0.869), 10 cm from her right hand; WeaponLeft at (-0.230, -0.169, 0.871), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.333, 0.171, 0.309), 63 cm from WeaponRight along (0.13, 0.42, -0.90); muzzle axes on V: x (0.66, 0.64, 0.40) y (0.16, 0.39, -0.90) z (-0.73, 0.66, 0.16)
+2026-10-18 04:36:03.382 [thread 15] RA01 VRIK weapon probe: WeaponRight at (0.260, -0.077, 0.884), 10 cm from her right hand; WeaponLeft at (-0.230, -0.153, 0.876), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.342, 0.194, 0.326), 63 cm from WeaponRight along (0.13, 0.43, -0.89); muzzle axes on V: x (0.63, 0.66, 0.41) y (0.16, 0.41, -0.90) z (-0.76, 0.63, 0.15)
+2026-10-18 04:36:04.379 [thread 14] RA01 VRIK weapon probe: WeaponRight at (0.257, -0.091, 0.871), 10 cm from her right hand; WeaponLeft at (-0.232, -0.160, 0.872), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.341, 0.175, 0.311), 63 cm from WeaponRight along (0.13, 0.43, -0.89); muzzle axes on V: x (0.65, 0.64, 0.40) y (0.17, 0.40, -0.90) z (-0.74, 0.65, 0.15)
+2026-10-18 04:36:04.618 [thread 35] RA01 game anchor (menu watcher): TIME+0xE0 0->1 - old signals: mouse says MENU, camera built
+2026-10-18 04:36:04.718 [thread 35] RA01 game anchor (menu watcher): TIME+0xE0 1->0 - old signals: mouse says MENU, camera built
+2026-10-18 04:36:05.381 [thread 8] RA01 VRIK weapon probe: WeaponRight at (0.238, -0.088, 0.864), 10 cm from her right hand; WeaponLeft at (-0.224, -0.157, 0.869), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.313, 0.181, 0.305), 63 cm from WeaponRight along (0.12, 0.43, -0.89); muzzle axes on V: x (0.67, 0.63, 0.39) y (0.15, 0.40, -0.90) z (-0.72, 0.67, 0.18)
+2026-10-18 04:36:06.382 [thread 31] RA01 VRIK weapon probe: WeaponRight at (0.251, -0.092, 0.862), 10 cm from her right hand; WeaponLeft at (-0.228, -0.179, 0.869), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.335, 0.176, 0.303), 63 cm from WeaponRight along (0.13, 0.43, -0.89); muzzle axes on V: x (0.65, 0.65, 0.41) y (0.17, 0.40, -0.90) z (-0.75, 0.65, 0.15)
+2026-10-18 04:36:07.381 [thread 11] RA01 VRIK weapon probe: WeaponRight at (0.249, -0.110, 0.860), 10 cm from her right hand; WeaponLeft at (-0.228, -0.163, 0.869), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.348, 0.146, 0.298), 63 cm from WeaponRight along (0.16, 0.41, -0.90); muzzle axes on V: x (0.70, 0.60, 0.39) y (0.19, 0.38, -0.91) z (-0.69, 0.71, 0.15)
+2026-10-18 04:36:08.380 [thread 6] RA01 VRIK weapon probe: WeaponRight at (0.250, -0.092, 0.864), 10 cm from her right hand; WeaponLeft at (-0.228, -0.166, 0.868), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.341, 0.176, 0.307), 63 cm from WeaponRight along (0.15, 0.43, -0.89); muzzle axes on V: x (0.67, 0.62, 0.41) y (0.18, 0.40, -0.90) z (-0.72, 0.67, 0.15)
+2026-10-18 04:36:09.380 [thread 30] RA01 VRIK weapon probe: WeaponRight at (0.252, -0.094, 0.869), 10 cm from her right hand; WeaponLeft at (-0.230, -0.169, 0.871), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.332, 0.171, 0.308), 63 cm from WeaponRight along (0.13, 0.42, -0.90); muzzle axes on V: x (0.66, 0.64, 0.39) y (0.16, 0.39, -0.90) z (-0.73, 0.66, 0.16)
+2026-10-18 04:36:10.377 [thread 16] RA01 VRIK weapon probe: WeaponRight at (0.260, -0.077, 0.883), 10 cm from her right hand; WeaponLeft at (-0.230, -0.154, 0.876), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.341, 0.193, 0.326), 63 cm from WeaponRight along (0.13, 0.43, -0.89); muzzle axes on V: x (0.63, 0.66, 0.41) y (0.16, 0.40, -0.90) z (-0.76, 0.63, 0.15)
+2026-10-18 04:36:11.381 [thread 8] RA01 VRIK weapon probe: WeaponRight at (0.257, -0.089, 0.871), 10 cm from her right hand; WeaponLeft at (-0.231, -0.160, 0.872), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.344, 0.178, 0.313), 63 cm from WeaponRight along (0.14, 0.43, -0.89); muzzle axes on V: x (0.65, 0.64, 0.41) y (0.17, 0.40, -0.90) z (-0.74, 0.66, 0.15)
+2026-10-18 04:36:12.381 [thread 14] RA01 VRIK weapon probe: WeaponRight at (0.252, -0.041, 0.879), 10 cm from her right hand; WeaponLeft at (-0.382, -0.191, 0.900), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (0.381, 0.205, 0.319), 63 cm from WeaponRight along (0.21, 0.39, -0.90); muzzle axes on V: x (0.56, 0.71, 0.44) y (0.24, 0.37, -0.90) z (-0.79, 0.61, 0.03)
+2026-10-18 04:36:12.965 [thread 35] RA01 game anchor (menu watcher): TIME+0x64 126->127 - old signals: mouse says MENU, camera built
+2026-10-18 04:36:13.158 [thread 14] RA01 game anchor: V's weapon 0x2361475AE30 - no skeleton found yet (the muzzle falls back to a gun of the right size)
+2026-10-18 04:36:13.166 [thread 35] RA01 game anchor: V 0x235F10B0790 (status 4, 4 = in the world), 1 skeleton(s), first 0x232003F5438
+2026-10-18 04:36:13.268 [thread 11] RA01 player skeleton: V's body 0x232003F5438 (765 bones) taken from the game's own record of V (was 0x231DCE80AA0)
+2026-10-18 04:36:13.268 [thread 47] RA01 VRIK weapon hooks: WeaponRight slot 28, WeaponLeft slot 26
+2026-10-18 04:36:13.269 [thread 47] RA01 VRIK bone map: name list 765 bones (V's live list has 765), parent list found, arm chains OK
+RA01   Root           slot   0, parent none
+RA01   Spine3         slot  13, parent slot 10
+RA01   Neck           slot  16, parent Spine3
+RA01   Head           slot  22, parent slot 19
+RA01   LeftShoulder   slot  14, parent Spine3
+RA01   LeftArm        slot  17, parent LeftShoulder
+RA01   LeftForeArm    slot  20, parent LeftArm
+RA01   LeftHand       slot  23, parent LeftForeArm
+RA01   RightShoulder  slot  15, parent Spine3
+RA01   RightArm       slot  18, parent RightShoulder
+RA01   RightForeArm   slot  21, parent RightArm
+RA01   RightHand      slot  24, parent RightForeArm
+2026-10-18 04:36:13.269 [thread 47] RA01 VRIK rest pose: found (765 bones) - checked against the live bone lengths on the first frame
+2026-10-18 04:36:13.276 [thread 19] RA01 strike recorder: 32 cyberware bones found in V's rig (765 bones)
+2026-10-18 04:36:13.276 [thread 19] RA01 per-hand cyberware: folded pose learned for 32 parts of a new rig (765 bones) - filming the draw
+2026-10-18 04:36:13.276 [thread 19] RA01 VRIK live check (765 live bones):
+RA01   Root           offset from parent (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   Spine3         offset from parent (0.1314, 0.0000, -0.0000) = 0.1314 m
+RA01   Neck           offset from parent (0.1590, -0.0000, -0.0000) = 0.1590 m
+RA01   Head           offset from parent (0.0691, 0.0000, 0.0000) = 0.0691 m
+RA01   LeftShoulder   offset from parent (0.1403, -0.0905, -0.0163) = 0.1677 m
+RA01   LeftArm        offset from parent (0.1742, -0.0000, 0.0000) = 0.1742 m
+RA01   LeftForeArm    offset from parent (0.2904, 0.0000, 0.0000) = 0.2904 m
+RA01   LeftHand       offset from parent (0.2753, 0.0000, 0.0000) = 0.2753 m
+RA01   RightShoulder  offset from parent (0.1363, 0.0112, 0.0307) = 0.1402 m
+RA01   RightArm       offset from parent (-0.1742, 0.0000, -0.0000) = 0.1742 m
+RA01   RightForeArm   offset from parent (-0.2904, -0.0000, 0.0000) = 0.2904 m
+RA01   RightHand      offset from parent (-0.2753, 0.0000, -0.0000) = 0.2753 m
+RA01   live slot  0: (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   live slot  1: (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   live slot  2: (-0.0065, -0.2089, 0.9522) = 0.9749 m
+RA01   live slot  3: (-0.0000, -0.2000, 0.0000) = 0.2000 m
+RA01   live slot  4: (0.1025, -0.0000, -0.0000) = 0.1025 m
+RA01   live slot  5: (0.0000, -0.0000, -0.0830) = 0.0830 m
+RA01   live slot  6: (-0.0000, 0.0000, 0.0830) = 0.0830 m
+RA01   live slot  7: (0.0850, 0.0000, 0.0000) = 0.0850 m
+RA01   live slot  8: (0.4429, 0.0000, 0.0000) = 0.4429 m
+RA01   live slot  9: (-0.4429, -0.0000, 0.0000) = 0.4429 m
+RA01   live slot 10: (0.1052, -0.0000, -0.0000) = 0.1052 m
+RA01   live slot 11: (0.4251, 0.0000, -0.0000) = 0.4251 m
+RA01   live slot 12: (-0.4251, 0.0000, 0.0000) = 0.4251 m
+RA01   live slot 13: (0.1314, 0.0000, -0.0000) = 0.1314 m
+RA01   live slot 14: (0.1403, -0.0905, -0.0163) = 0.1677 m
+RA01   live slot 15: (0.1363, 0.0112, 0.0307) = 0.1402 m
+RA01   live slot 16: (0.1590, -0.0000, -0.0000) = 0.1590 m
+RA01   live slot 17: (0.1742, -0.0000, 0.0000) = 0.1742 m
+RA01   live slot 18: (-0.1742, 0.0000, -0.0000) = 0.1742 m
+RA01   live slot 19: (0.0790, 0.0000, 0.0000) = 0.0790 m
+RA01   live slot 20: (0.2904, 0.0000, 0.0000) = 0.2904 m
+RA01   live slot 21: (-0.2904, -0.0000, 0.0000) = 0.2904 m
+RA01   live slot 22: (0.0691, 0.0000, 0.0000) = 0.0691 m
+RA01   live slot 23: (0.2753, 0.0000, 0.0000) = 0.2753 m
+RA01   live slot 24: (-0.2753, 0.0000, -0.0000) = 0.2753 m
+RA01   live slot 25: (0.0793, -0.0009, 0.0307) = 0.0851 m
+2026-10-18 04:36:13.377 [thread 3] RA01 VRIK weapon probe: WeaponRight at (0.102, 0.275, 1.225), 10 cm from her right hand; WeaponLeft at (-0.032, 0.306, 1.262), 10 cm from her left hand; right controller target not tracked; gun 0x231FFED5168 (23 bones): muzzle on the gun (0.000, 0.625, 0.028) -> on V (-0.162, 0.795, 1.000), 63 cm from WeaponRight along (-0.42, 0.83, -0.36); muzzle axes on V: x (0.45, 0.54, 0.71) y (-0.39, 0.84, -0.39) z (-0.80, -0.10, 0.59)
+2026-10-18 04:36:14.780 [thread 22] RA01 per-hand cyberware: draw filmed, 121 frames; left: fully open at frame 48; right: fully open at frame 17; both rest at the first frame (position 2); tips and hinges pop to their furthest seen
+2026-10-18 04:36:14.879 [thread 49] RA01 strike recorder (draw - a new rig of 765 bones): 256 frames over 1597 ms; bones that moved (rest = first frame, parent-relative):
+RA01   r_wristSuspension01_JNT        rest pos (-6.1, 0.1, 0.6) cm, turn (0.487, -0.077, 0.028, 0.869); furthest 2.5 deg / 0.00 cm at 1409 ms; furthest turn (0.487, -0.077, 0.028, 0.869); curve % every 33 ms: 2 0 0 2 2 100 100 0 0 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 100 100 100 100 100 100 100
+RA01   l_wristSuspension02_JNT        rest pos (13.1, -0.3, 0.0) cm, turn (-0.013, 0.120, -0.058, 0.991); furthest 2.5 deg / 0.00 cm at 1440 ms; furthest turn (-0.013, 0.120, -0.058, 0.991); curve % every 33 ms: 0 0 0 0 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+RA01   r_wristSuspension02_JNT        rest pos (-12.1, 0.3, -0.0) cm, turn (0.129, 0.094, -0.124, 0.979); furthest 2.5 deg / 0.00 cm at 1530 ms; furthest turn (0.129, 0.094, -0.124, 0.979); curve % every 33 ms: 0 0 0 0 2 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+RA01   l_wristSuspension04_JNT        rest pos (4.1, -0.0, 0.0) cm, turn (-0.294, 0.174, -0.015, 0.940); furthest 101.5 deg / 0.00 cm at 635 ms; furthest turn (0.539, 0.079, 0.127, 0.829); curve % every 33 ms: 1 9 19 32 45 41 32 24 22 26 31 43 56 67 76 84 89 94 97 100 89 72 62 60 58 57 55 52 52 49 46 43 41 40 40 40 40 40 41 41 40 38 38 38 38 38 38 38 38
+RA01   r_wristSuspension04_JNT        rest pos (-4.1, -0.0, 0.0) cm, turn (-0.312, 0.319, 0.018, 0.895); furthest 87.8 deg / 0.00 cm at 114 ms; furthest turn (-0.849, -0.041, -0.042, 0.525); curve % every 33 ms: 0 14 37 93 84 98 77 45 51 52 54 38 28 32 34 26 16 9 17 26 43 59 77 80 72 65 60 53 42 29 20 16 15 15 16 20 22 25 25 26 27 27 28 28 28 28 28 28 28
+RA01   l_wristSuspension02_rail_JNT   rest pos (0.0, -0.0, -0.0) cm, turn (0.015, -0.121, 0.046, 0.992); furthest 2.5 deg / 0.00 cm at 303 ms; furthest turn (0.015, -0.120, 0.046, 0.991); curve % every 33 ms: 2 0 0 0 2 0 0 0 0 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 0 100 100 100 100 100 100
+RA01   r_wristSuspension02_rail_JNT   rest pos (0.0, 0.0, -0.0) cm, turn (-0.128, -0.096, 0.112, 0.981); furthest 2.5 deg / 0.00 cm at 1584 ms; furthest turn (-0.128, -0.096, 0.111, 0.981); curve % every 33 ms: 0 0 0 2 2 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+RA01   l_wrist01_GRP                  rest pos (-3.0, -0.0, -0.5) cm, turn (-0.021, -0.101, 0.037, 0.994); furthest 3.6 deg / 0.00 cm at 0 ms; furthest turn (-0.021, -0.101, 0.037, 0.994); curve % every 33 ms: 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+RA01   r_wrist01_GRP                  rest pos (3.0, 0.0, 0.5) cm, turn (-0.021, -0.101, 0.037, 0.994); furthest 3.6 deg / 0.00 cm at 0 ms; furthest turn (-0.021, -0.101, 0.037, 0.994); curve % every 33 ms: 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+RA01   l_blade01_JNT                  rest pos (-1.2, 0.0, 3.5) cm, turn (-0.026, -0.999, -0.009, 0.022); furthest 14.7 deg / 0.00 cm at 914 ms; furthest turn (-0.012, -0.989, -0.054, 0.139); curve % every 33 ms: 0 0 0 0 0 17 17 17 17 17 17 0 12 33 40 41 46 73 79 66 55 42 36 46 51 34 46 92 98 92 88 87 72 56 51 36 26 28 22 19 18 0 0 0 0 1 1 2 3
+RA01   r_blade01_JNT                  rest pos (1.2, 0.0, -3.5) cm, turn (-0.055, -0.989, 0.102, -0.091); furthest 66.5 deg / 0.00 cm at 211 ms; furthest turn (-0.302, -0.860, 0.062, 0.408); curve % every 33 ms: 1 2 8 30 24 37 87 88 56 18 12 11 11 12 12 12 12 12 12 12 19 26 32 32 29 25 21 18 17 14 12 12 11 12 12 12 12 12 12 12 12 12 11 11 11 11 11 12 13
+RA01   l_blade02_JNT                  rest pos (18.7, -0.0, -0.0) cm, turn (-0.000, -0.998, -0.000, -0.070); furthest 10.0 deg / 0.00 cm at 896 ms; furthest turn (-0.000, -0.988, -0.000, -0.154); curve % every 33 ms: 0 0 0 0 0 25 25 25 25 25 25 25 25 25 0 0 40 47 31 25 9 0 0 25 0 27 56 100 89 79 48 22 0 0 25 25 25 25 25 25 25 25 0 0 0 0 0 0 0
+RA01   r_blade02_JNT                  rest pos (-18.7, -0.0, -0.0) cm, turn (-0.000, -0.981, -0.000, -0.192); furthest 39.7 deg / 0.00 cm at 211 ms; furthest turn (-0.000, -0.858, -0.000, -0.514); curve % every 33 ms: 1 7 11 6 3 40 92 82 30 31 42 42 42 41 42 42 42 42 42 42 42 42 41 41 41 42 42 42 42 42 42 42 42 42 42 42 42 41 41 41 41 41 42 42 42 42 42 42 42
+RA01   r_blade03_JNT                  rest pos (-6.2, -0.0, -3.9) cm, turn (-0.000, 0.022, 0.000, 1.000); furthest 0.0 deg / 13.97 cm at 259 ms; furthest turn (-0.000, 0.022, 0.000, 1.000); curve % every 33 ms: 0 0 0 0 0 3 83 95 98 26 2 0 0 0 0 0 0 0 1 8 44 66 73 73 73 73 73 73 78 47 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+RA01   l_blade04_JNT                  rest pos (20.6, -0.0, 3.2) cm, turn (-0.000, 0.030, 0.000, 1.000); furthest 2.5 deg / 18.77 cm at 450 ms; furthest turn (-0.000, 0.030, 0.000, 0.999); curve % every 33 ms: 0 0 0 0 2 0 0 0 0 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0 0 0 100 100 100 100 100 100
+RA01   r_blade04_JNT                  rest pos (-18.7, -0.0, -3.4) cm, turn (0.000, 0.037, 0.000, 0.999); furthest 0.0 deg / 24.64 cm at 926 ms; furthest turn (-0.000, 0.037, 0.000, 0.999); curve % every 33 ms: 0 0 0 3 64 61 98 85 70 16 1 0 0 0 0 0 0 0 3 16 71 91 94 94 94 93 93 93 100 61 2 6 5 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+RA01   l_blade05_JNT                  rest pos (33.1, -0.0, -0.3) cm, turn (0.000, -0.000, -0.000, 1.000); furthest 0.0 deg / 18.77 cm at 450 ms; furthest turn (0.000, -0.000, -0.000, 1.000); curve % every 33 ms: 0 4 8 16 24 25 25 25 25 25 30 61 81 97 99 78 50 21 7 14 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13
+RA01   r_blade05_JNT                  rest pos (-31.2, -0.0, 0.3) cm, turn (-0.000, 0.001, 0.000, 1.000); furthest 0.0 deg / 24.64 cm at 926 ms; furthest turn (-0.000, 0.001, 0.000, 1.000); curve % every 33 ms: 0 0 0 3 64 61 98 85 70 16 1 0 0 0 0 0 0 0 3 16 71 91 94 94 94 93 93 93 100 61 2 6 5 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0
+RA01   l_bladeHinge01_JNT             rest pos (0.5, -0.0, 2.6) cm, turn (-0.000, -1.000, -0.009, -0.000); furthest 6.0 deg / 0.00 cm at 574 ms; furthest turn (0.000, 0.999, -0.043, -0.000); curve % every 33 ms: 1 1 0 0 0 1 0 0 1 0 0 1 2 5 10 26 59 90 98 90 75 59 33 11 11 34 65 84 78 55 25 15 8 2 1 1 1 1 1 1 0 1 1 1 0 2 3 5 6
+RA01   r_bladeHinge01_JNT             rest pos (-0.5, -0.0, -2.6) cm, turn (-0.000, 0.995, -0.097, -0.000); furthest 22.0 deg / 0.00 cm at 193 ms; furthest turn (-0.000, 0.958, -0.286, -0.000); curve % every 33 ms: 0 1 3 6 1 42 84 46 27 4 0 0 0 0 0 0 0 0 0 0 5 10 14 14 13 12 11 9 8 5 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 4 5
+RA01   l_bladeHinge02_JNT             rest pos (1.7, 0.0, -0.9) cm, turn (0.019, -0.707, -0.019, -0.707); furthest 9.0 deg / 0.00 cm at 587 ms; furthest turn (0.037, 0.706, -0.037, 0.706); curve % every 33 ms: 1 1 0 1 1 1 0 1 0 0 1 5 10 16 25 39 65 92 98 89 72 57 38 26 22 22 18 11 8 4 1 2 1 1 0 1 1 1 1 1 0 0 0 0 1 1 1 1 1
+RA01   r_bladeHinge02_JNT             rest pos (-1.7, 0.0, 0.9) cm, turn (0.045, -0.706, -0.045, -0.706); furthest 21.5 deg / 0.00 cm at 217 ms; furthest turn (0.176, -0.685, -0.176, -0.685); curve % every 33 ms: 0 4 13 35 1 76 41 92 60 10 0 0 0 0 0 0 0 0 0 0 1 2 2 1 1 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+RA01   l_bladeHinge03_JNT             rest pos (0.6, -0.0, 0.7) cm, turn (0.001, 0.703, -0.001, -0.711); furthest 14.0 deg / 0.06 cm at 914 ms; furthest turn (0.001, 0.611, -0.001, -0.792); curve % every 33 ms: 0 0 0 0 0 0 0 0 0 0 2 12 21 29 35 29 3 24 30 22 7 8 29 43 51 30 38 93 98 97 97 93 80 64 53 42 33 24 17 10 6 2 0 0 0 0 0 1 1
+RA01   r_bladeHinge03_JNT             rest pos (-0.6, 0.4, -0.7) cm, turn (0.004, 0.777, -0.004, -0.629); furthest 69.1 deg / 0.62 cm at 211 ms; furthest turn (-0.004, -0.283, 0.014, 0.959); curve % every 33 ms: 0 0 7 28 24 24 89 87 54 18 11 11 11 11 11 11 11 11 11 12 19 26 32 32 29 26 22 18 16 15 13 12 11 11 11 11 11 11 11 11 11 11 11 11 11 12 12 12 13
+RA01   l_bladePiston01_JNT            rest pos (0.0, 0.0, 0.0) cm, turn (-0.000, 0.054, -0.001, 0.999); furthest 10.3 deg / 0.00 cm at 902 ms; furthest turn (-0.000, 0.144, -0.001, 0.990); curve % every 33 ms: 0 0 0 0 0 0 0 0 0 0 0 1 1 1 6 19 30 40 40 35 27 20 9 3 3 12 59 99 94 78 56 37 16 4 3 2 2 1 0 0 0 0 0 0 0 0 0 0 0
+RA01   r_bladePiston01_JNT            rest pos (0.0, 0.0, 0.0) cm, turn (0.001, -0.174, 0.006, -0.985); furthest 42.3 deg / 0.00 cm at 211 ms; furthest turn (0.008, -0.517, 0.013, -0.856); curve % every 33 ms: 0 7 11 5 1 39 93 82 32 27 38 38 38 38 38 38 38 38 38 38 38 37 37 37 37 37 37 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38 38
+2026-10-18 04:36:15.456 [thread 30] RA01 game anchor: V's weapon 0x235F0B63D40 - 1 skeleton(s), first 0x232017C4358 (its muzzle is the one used)
+2026-10-18 04:36:15.457 [thread 30] RA01 game anchor: V's weapon 0x235F0B63D40 parts (M61 look): 31 components - [0] 281345CD102B5452 anim skel 0x232017C4358; [1] 281345CD102B5452 anim; [2] 281345CD102B5452 anim; [3] 281345CD102B5452 anim; [4] DE34B9AEDE907F2E skel 0x235F0B63D40; [5] EBAEF5B3C14F80B7; [6] 81579A09160257DB; [7] C8DEBA0D911752E4; [8] 0A880B8B0340506D skel 0x7FF7F06F3664; [9] 7843607420EF7310; [10] 0000000000000000; [11] 20576DB03B67AA0D; [12] 97ABB7C6E4CF4DC6; [13] 20576DB03B67AA0D; [14] 97ABB7C6E4CF4DC6; [15] 148533DA0E1921DF; [16] 6A0D494DD3CD609E; [17] 0A880B8B0340506D skel 0x7FF7F06F3664; [18] 7843607420EF7310; [19] 5819FD2AABA09EC9; [20] 97ABB7C6E4CF4DC6; [21] 6A0D494DD3CD609E; [22] BF9D4133D3299D2E; [23] 97ABB7C6E4CF4DC6; [24] 0512F4A31BCC8E41; [25] 5819FD2AABA09EC9; [26] 7F445B13CD9313A7; [27] 0A880B8B0340506D skel 0x7FF7F06F3664; [28] 86AA83B4562D10DF; [29] AB474882FCB44DA0; [30] A1DC7F120117DD65;
+2026-10-18 04:36:15.479 [thread 35] RA01 game anchor: V 0x235F10B0790 (status 4, 4 = in the world), 1 skeleton(s), first 0x231FF987B20
+2026-10-18 04:36:15.564 [thread 3] RA01 player skeleton: V's body 0x231FF987B20 (619 bones) taken from the game's own record of V (was 0x232003F5438)
+2026-10-18 04:36:15.589 [thread 49] RA01 VRIK weapon hooks: WeaponRight slot 28, WeaponLeft slot 26
+2026-10-18 04:36:15.589 [thread 49] RA01 VRIK bone map: name list 619 bones (V's live list has 619), parent list found, arm chains OK
+RA01   Root           slot   0, parent none
+RA01   Spine3         slot  13, parent slot 10
+RA01   Neck           slot  16, parent Spine3
+RA01   Head           slot  22, parent slot 19
+RA01   LeftShoulder   slot  14, parent Spine3
+RA01   LeftArm        slot  17, parent LeftShoulder
+RA01   LeftForeArm    slot  20, parent LeftArm
+RA01   LeftHand       slot  23, parent LeftForeArm
+RA01   RightShoulder  slot  15, parent Spine3
+RA01   RightArm       slot  18, parent RightShoulder
+RA01   RightForeArm   slot  21, parent RightArm
+RA01   RightHand      slot  24, parent RightForeArm
+2026-10-18 04:36:15.589 [thread 49] RA01 VRIK rest pose: found (619 bones) - checked against the live bone lengths on the first frame
+2026-10-18 04:36:15.596 [thread 22] RA01 strike recorder: 0 cyberware bones found in V's rig (619 bones)
+2026-10-18 04:36:15.596 [thread 22] RA01 VRIK live check (619 live bones):
+RA01   Root           offset from parent (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   Spine3         offset from parent (0.1295, -0.0000, 0.0000) = 0.1295 m
+RA01   Neck           offset from parent (0.1590, 0.0000, -0.0000) = 0.1590 m
+RA01   Head           offset from parent (0.0691, -0.0000, 0.0000) = 0.0691 m
+RA01   LeftShoulder   offset from parent (0.1281, -0.0212, -0.0333) = 0.1340 m
+RA01   LeftArm        offset from parent (0.1742, 0.0000, 0.0000) = 0.1742 m
+RA01   LeftForeArm    offset from parent (0.2904, 0.0000, 0.0000) = 0.2904 m
+RA01   LeftHand       offset from parent (0.2753, -0.0000, 0.0000) = 0.2753 m
+RA01   RightShoulder  offset from parent (0.1566, -0.0268, 0.0144) = 0.1596 m
+RA01   RightArm       offset from parent (-0.1742, -0.0000, 0.0000) = 0.1742 m
+RA01   RightForeArm   offset from parent (-0.2904, 0.0000, -0.0000) = 0.2904 m
+RA01   RightHand      offset from parent (-0.2753, 0.0000, 0.0000) = 0.2753 m
+RA01   live slot  0: (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   live slot  1: (0.0000, 0.0000, 0.0000) = 0.0000 m
+RA01   live slot  2: (-0.0073, -0.2058, 0.9509) = 0.9730 m
+RA01   live slot  3: (0.0000, -0.2000, 0.0000) = 0.2000 m
+RA01   live slot  4: (0.1025, 0.0000, 0.0000) = 0.1025 m
+RA01   live slot  5: (0.0000, -0.0000, -0.0830) = 0.0830 m
+RA01   live slot  6: (-0.0000, 0.0000, 0.0830) = 0.0830 m
+RA01   live slot  7: (0.0848, 0.0000, -0.0000) = 0.0848 m
+RA01   live slot  8: (0.4429, -0.0000, 0.0000) = 0.4429 m
+RA01   live slot  9: (-0.4429, 0.0000, 0.0000) = 0.4429 m
+RA01   live slot 10: (0.1044, 0.0000, -0.0000) = 0.1044 m
+RA01   live slot 11: (0.4251, -0.0000, 0.0000) = 0.4251 m
+RA01   live slot 12: (-0.4251, 0.0000, 0.0000) = 0.4251 m
+RA01   live slot 13: (0.1295, -0.0000, 0.0000) = 0.1295 m
+RA01   live slot 14: (0.1281, -0.0212, -0.0333) = 0.1340 m
+RA01   live slot 15: (0.1566, -0.0268, 0.0144) = 0.1596 m
+RA01   live slot 16: (0.1590, 0.0000, -0.0000) = 0.1590 m
+RA01   live slot 17: (0.1742, 0.0000, 0.0000) = 0.1742 m
+RA01   live slot 18: (-0.1742, -0.0000, 0.0000) = 0.1742 m
+RA01   live slot 19: (0.0790, 0.0000, 0.0000) = 0.0790 m
+RA01   live slot 20: (0.2904, 0.0000, 0.0000) = 0.2904 m
+RA01   live slot 21: (-0.2904, 0.0000, -0.0000) = 0.2904 m
+RA01   live slot 22: (0.0691, -0.0000, 0.0000) = 0.0691 m
+RA01   live slot 23: (0.2753, -0.0000, 0.0000) = 0.2753 m
+RA01   live slot 24: (-0.2753, 0.0000, 0.0000) = 0.2753 m
+RA01   live slot 25: (0.0791, -0.0000, -0.0000) = 0.0791 m
+2026-10-18 04:36:18.378 [thread 4] RA01 VRIK weapon probe: WeaponRight at (-0.000, 0.395, 1.482), 7 cm from her right hand; WeaponLeft at (-0.009, 0.412, 1.434), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (0.000, 0.280, 0.040) -> on V (0.000, 0.678, 1.487), 28 cm from WeaponRight along (0.00, 1.00, 0.02); muzzle axes on V: x (1.00, -0.00, 0.00) y (0.00, 0.99, -0.12) z (-0.00, 0.12, 0.99)
+2026-10-18 04:36:19.379 [thread 10] RA01 VRIK weapon probe: WeaponRight at (0.102, 0.402, 1.437), 7 cm from her right hand; WeaponLeft at (-0.166, -0.096, 0.924), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (-0.000, 0.280, 0.040) -> on V (0.088, 0.684, 1.440), 28 cm from WeaponRight along (-0.05, 1.00, 0.01); muzzle axes on V: x (0.99, 0.05, 0.13) y (-0.03, 0.99, -0.13) z (-0.13, 0.13, 0.98)
+2026-10-18 04:36:20.378 [thread 10] RA01 VRIK weapon probe: WeaponRight at (0.113, 0.402, 1.432), 7 cm from her right hand; WeaponLeft at (-0.167, -0.101, 0.926), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (-0.000, 0.280, 0.040) -> on V (0.117, 0.685, 1.444), 28 cm from WeaponRight along (0.01, 1.00, 0.04); muzzle axes on V: x (1.00, -0.02, 0.05) y (0.02, 0.99, -0.10) z (-0.05, 0.10, 0.99)
+2026-10-18 04:36:21.378 [thread 7] RA01 VRIK weapon probe: WeaponRight at (0.072, 0.400, 1.455), 7 cm from her right hand; WeaponLeft at (-0.101, 0.106, 1.095), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (0.000, 0.280, 0.040) -> on V (0.067, 0.683, 1.469), 28 cm from WeaponRight along (-0.02, 1.00, 0.05); muzzle axes on V: x (1.00, 0.02, 0.00) y (-0.02, 1.00, -0.09) z (-0.00, 0.09, 1.00)
+2026-10-18 04:36:22.380 [thread 14] RA01 VRIK weapon probe: WeaponRight at (0.002, 0.414, 1.482), 7 cm from her right hand; WeaponLeft at (-0.006, 0.430, 1.434), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (-0.000, 0.280, 0.040) -> on V (-0.001, 0.697, 1.485), 28 cm from WeaponRight along (-0.01, 1.00, 0.01); muzzle axes on V: x (1.00, 0.01, 0.04) y (-0.00, 0.99, -0.13) z (-0.04, 0.13, 0.99)
+2026-10-18 04:36:23.377 [thread 8] RA01 VRIK weapon probe: WeaponRight at (-0.000, 0.397, 1.488), 7 cm from her right hand; WeaponLeft at (-0.009, 0.415, 1.441), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (0.000, 0.280, 0.040) -> on V (0.000, 0.680, 1.498), 28 cm from WeaponRight along (0.00, 1.00, 0.04); muzzle axes on V: x (1.00, -0.00, 0.00) y (0.00, 0.99, -0.11) z (-0.00, 0.11, 0.99)
+2026-10-18 04:36:24.380 [thread 20] RA01 VRIK weapon probe: WeaponRight at (0.107, 0.388, 1.439), 7 cm from her right hand; WeaponLeft at (-0.294, -0.081, 1.017), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (-0.000, 0.280, 0.040) -> on V (0.098, 0.670, 1.449), 28 cm from WeaponRight along (-0.03, 1.00, 0.04); muzzle axes on V: x (1.00, 0.03, 0.04) y (-0.03, 0.99, -0.11) z (-0.04, 0.10, 0.99)
+2026-10-18 04:36:25.382 [thread 16] RA01 VRIK weapon probe: WeaponRight at (0.108, 0.397, 1.430), 7 cm from her right hand; WeaponLeft at (-0.166, -0.090, 0.925), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (0.000, 0.280, 0.040) -> on V (0.101, 0.679, 1.441), 28 cm from WeaponRight along (-0.03, 1.00, 0.04); muzzle axes on V: x (1.00, 0.03, 0.00) y (-0.03, 0.99, -0.11) z (-0.01, 0.11, 0.99)
+2026-10-18 04:36:26.380 [thread 30] RA01 VRIK weapon probe: WeaponRight at (0.108, 0.401, 1.443), 7 cm from her right hand; WeaponLeft at (-0.166, -0.069, 0.922), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (0.000, 0.280, 0.040) -> on V (0.101, 0.683, 1.463), 28 cm from WeaponRight along (-0.02, 1.00, 0.07); muzzle axes on V: x (1.00, 0.02, 0.00) y (-0.02, 1.00, -0.07) z (-0.01, 0.07, 1.00)
+2026-10-18 04:36:27.379 [thread 30] RA01 VRIK weapon probe: WeaponRight at (0.113, 0.321, 1.454), 7 cm from her right hand; WeaponLeft at (-0.167, -0.068, 0.921), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (-0.000, 0.280, 0.040) -> on V (0.126, 0.599, 1.507), 28 cm from WeaponRight along (0.04, 0.98, 0.19); muzzle axes on V: x (1.00, -0.04, -0.02) y (0.04, 1.00, 0.04) z (0.02, -0.04, 1.00)
+2026-10-18 04:36:28.380 [thread 23] RA01 VRIK weapon probe: WeaponRight at (0.104, 0.411, 1.444), 7 cm from her right hand; WeaponLeft at (-0.167, -0.079, 0.923), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (-0.000, 0.280, 0.040) -> on V (0.088, 0.693, 1.455), 28 cm from WeaponRight along (-0.06, 1.00, 0.04); muzzle axes on V: x (0.99, 0.05, 0.12) y (-0.04, 0.99, -0.10) z (-0.12, 0.10, 0.99)
+2026-10-18 04:36:29.381 [thread 15] RA01 VRIK weapon probe: WeaponRight at (0.109, 0.407, 1.463), 7 cm from her right hand; WeaponLeft at (-0.166, -0.038, 0.920), 10 cm from her left hand; right controller target not tracked; gun 0x232017C4358 (22 bones): muzzle on the gun (0.000, 0.280, 0.040) -> on V (0.102, 0.688, 1.494), 28 cm from WeaponRight along (-0.02, 0.99, 0.11); muzzle axes on V: x (1.00, 0.02, 0.01) y (-0.02, 1.00, -0.03) z (-0.01, 0.03, 1.00)
+2026-10-18 04:36:32.478 [thread 35] RA01 game anchor: no V right now (loading or start screen)
+2026-10-18 04:36:32.478 [thread 35] RA01 game anchor: loading screen UP
+2026-10-18 04:36:32.778 [thread 35] RA01 game anchor (menu watcher): UI+0xAC 7->0 TIME+0x114 559->2 - old signals: mouse says MENU, camera built
+2026-10-18 04:36:32.879 [thread 35] RA01 game anchor (menu watcher): TIME+0x64 127->0 TIME+0x7C 145->0 TIME+0x8C 128->0 TIME+0x98 -1665650165->-422116258 TIME+0x9C 1075479553->1089142170 TIME+0xC0 -1201160192->-1079169024 TIME+0xC4 1078199644->1080112997 TIME+0xD8 -365697232->0 TIME+0xDC 565->0 TIME+0x114 2->0 TIME+0x120 983091->-1 - old signals: mouse says MENU, camera not built

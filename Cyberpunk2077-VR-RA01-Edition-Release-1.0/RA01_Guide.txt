@@ -1,0 +1,28 @@
+# RA01 - the launcher's CONTROLS & FEATURES tab reads this file. Edit it freely, no rebuild needed.
+# A line starting with "## " is a card title; the lines under it are that card. Lines starting with "#" (one hash and a space) are notes and are not shown.
+## Settings window
+Open it: X, then LT, then right stick LEFT (or press F10). Point and pull the trigger to click; the sticks scroll it.
+Right stick UP in the same chord opens the game menu (inventory, map, journal); DOWN opens the pause menu.
+Every feature below can be switched off or tuned in that window. Hover a row for a full explanation.
+## Moving
+Walk with the left stick, turn with the right stick or your body. Squat for real to crouch.
+Ladders: go up to the ladder, get on it, then squeeze a grip and pull that hand down to climb. Water: butterfly stroke or doggy paddle to swim forward, side sweeping motions to turn in water, look down to dive.
+## Guns
+Point the gun itself - shots follow the barrel. A laser shows where it hits.
+Raise the gun to your cheek to aim (no zoom). Reach your other hand to the gun and squeeze its grip to hold it with two hands; tuck the back of the gun to your shoulder for a steady stock.
+## Reloading
+Hold X for about half a second to drop the magazine (a quick press is still doors and loot), or hold your off-hand trigger on the magazine and pull it out. Reach to your off-hand hip (the glowing ball), squeeze to take a new one, push it into the small ball under the gun.
+## Melee, Monowire, power attacks
+Swing fast to strike; hold a guard pose in front of your face to block.
+Pull a hand back behind your shoulder, hold a moment, then swing for a strong attack. Both hands up and slam down with Gorilla Arms.
+Monowire: choose the X or Straight look on the Weapons tab. Charging RT keeps it between your hands; it whips out when the attack fires.
+## Grenades and knives
+Hold the grip to take a grenade out, swing, and let go of the grip to throw - it lands where a real throw would. No aiming arc in the way.
+Knives: hold to aim, then swing the knife hand forward hard to throw.
+## Driving
+Put a hand on the wheel or handlebar, squeeze the grip to hold it, and steer. X is the horn.
+## Gestures
+open the weapons wheel, choose hands, then Hold B for 5 seconds to switch gesture mode on or off: grip = point, trigger = thumbs up, both = the middle (fuck you) finger.
+## First start
+Run this launcher, pick your settings, press LAUNCH. Keep this window open while you play - when the game closes it puts everything back.
+On the first start with a new headset, press "Put camera at V's eyes" and "Calibrate arms" in the settings window.

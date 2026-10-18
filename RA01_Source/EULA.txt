@@ -1,0 +1,37 @@
+END USER LICENSE AGREEMENT (EULA)
+Copyright (c) 2026 Cyberpunk2077-VR-RA01-Edition. All rights reserved.
+
+1. LICENSE GRANT
+The Author grants you a non-exclusive, non-transferable, revocable, limited license to download, install, and use the Software solely for personal, non-commercial purposes, provided you have received explicit written permission from the Author. If you downloaded the software From Nexus user 007xSlayerx007, RobA, Then you have full permission to use the software for non commercial purposes and personal use. If you receive the software from anywhere else I cannot guarantee validity of the software. 
+
+2. RESTRICTIONS
+You strictly agree NOT to:
+- Decompile, reverse engineer, disassemble, or attempt to derive the source code of the Software.
+- Modify, adapt, improve, or create derivative works from the Software, unless the author explicitly provides you permission in writing and signature.
+- Redistribute, sell, rent, lease, sublicense, or otherwise transfer the Software or its source code to any third party.
+
+Permission is hereby granted to view the source code of this software publicly 
+for educational and review purposes only. 
+
+3. Strictly Prohibited:
+- Redistribution: You may not republish, host, mirror, or distribute this source 
+   code or its compiled binaries anywhere else, in whole or in part, without 
+   express written permission from the copyright holder and creator of the software, RobA.
+- Selling: Even if the creator RobA. provides permission to use the code, you may never sell this software. It is always meant to remain free for all. Unless you are CDProjecktRed themselves and want to implement a native VR mode to the game as a DLC, then we can talk, since that is a great idea. Under NO circumstances is this software ever to be barred behind a pay wall by any Modder or persons other than those stated.
+
+4. OWNERSHIP
+The Software, including its source code, assets, and documentation, is and remains the sole and exclusive property of the Author (Rob A.). It is protected by copyright and intellectual property laws.
+
+5. TERMINATION
+This license is effective until terminated. The Author reserves the right to terminate your access and license to use this Software at any time, with or without cause, effective immediately. Upon termination, you must cease all use of the Software and destroy all copies in your possession.
+
+6. NOTICE
+This software was created using the assistance of AI tools as a "force multiplier," not as a way to not understand or do any of the code myself. I know this software inside and out, I made it from the ground up. It required an extensive near 500 hours of work.
+
+7. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM YOUR USE OF THE SOFTWARE.
+
+8. TRADEMARK DISCLAIMER
+This Software is an unofficial fan-made modification. "Cyberpunk", "Cyberpunk 2077", and all associated names, logos, and brands are trademarks of CD PROJEKT S.A. The Author is not affiliated with, sponsored by, or endorsed by CD PROJEKT S.A. 
+
+

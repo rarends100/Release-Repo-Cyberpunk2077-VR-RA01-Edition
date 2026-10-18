@@ -1,0 +1,2 @@
+RA01 launcher log - 2026-10-18 04:36:35
+04:36:35 RA01: game build 2.31 (exe file version 3.0.5294808) in R:\SteamLibrary\steamapps\common\Cyberpunk 2077\bin\x64

@@ -1,0 +1,5 @@
+2026-10-18 04:34:22.393 [thread 1] RA01 Core started inside Cyberpunk2077.exe (pid 40576)
+2026-10-18 04:34:22.396 [thread 1] RA01 black box: recording to R:\zzz_Mod_work_I_am_doing\ReleaseGit-Cyberpunk2077-VR-RA01-Edition\Cyberpunk2077-VR-RA01-Edition\Logs\RA01_blackbox.bin
+2026-10-18 04:34:23.334 [thread 1] RA01 load safety: hold indicator guard fitted at RVA 0x4D7EF8 (M56)
+2026-10-18 04:34:24.597 [thread 2] RA01 quit watch: engine state 0 -> 3 (3 = running)
+2026-10-18 04:36:33.112 [thread 2] RA01 quit watch: the game window is gone

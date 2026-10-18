@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- RA01: M40 - a windowed program (its own window, no console) published as one self-contained exe (NativeAOT, like RA01.dll): players need no .NET installed. -->
+    <OutputType>WinExe</OutputType>
+    <PublishAot>true</PublishAot>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <TargetFramework>net8.0</TargetFramework>
+    <!-- RA01: must be 64-bit to load a DLL into the 64-bit game. -->
+    <PlatformTarget>x64</PlatformTarget>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- RA01: M12-1 - the doorman (xinput9_1_0.dll) in Doorman\ is its own small DLL with its own project, so keep it out of the launcher. -->
+    <Compile Remove="Doorman\**" />
+    <!-- RA01: M40 - the CONTROLS & FEATURES tab's text, copied beside the exe. -->
+    <None Update="RA01_Guide.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

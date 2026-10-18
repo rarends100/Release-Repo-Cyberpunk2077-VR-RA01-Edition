@@ -1,0 +1,138 @@
+2026-10-18 04:34:24.538 [thread 38] RA01 vehicle probe: 96116 names read from the game's scripts
+2026-10-18 04:34:24.788 [thread 38] RA01 vehicle probe: watching 239 of V's fields (86 named from the game's scripts) - get into a car, drive a little, get out; then the same on a motorcycle
+2026-10-18 04:34:25.040 [thread 38] RA01 state probe: BraindanceSystem found - its isInBraindance switch at +0xB (value holder)
+2026-10-18 04:34:25.291 [thread 38] RA01 state probe: IN A BRAINDANCE: no
+2026-10-18 04:34:48.583 [thread 38] RA01 vehicle probe: V.0x3557D117F4F18094 (+0x504 holder) 0 -> 4066666700000000
+2026-10-18 04:34:48.584 [thread 38] RA01 vehicle probe: V.curInventoryWeight (+0x508 holder) 0 -> 40666667
+2026-10-18 04:34:48.584 [thread 38] RA01 vehicle probe: V.0xE34D29E4A21EAC39 (+0x790 holder) 1 -> 0
+2026-10-18 04:34:48.584 [thread 38] RA01 vehicle probe: V.combatGadgetState (+0x7BC holder) 0 -> 100000000
+2026-10-18 04:34:48.584 [thread 38] RA01 vehicle probe: V.sceneTier (+0x7C0 holder) 0 -> 1
+2026-10-18 04:34:48.584 [thread 38] RA01 vehicle probe: V.0x37039C16F98659DA (+0x82C holder) F86AD10000000000 -> F86AD10042C80000
+2026-10-18 04:34:57.099 [thread 38] RA01 vehicle probe: V.quickSlotsManager (+0x420 holder) 231FA5B50C0 -> 231FB934DC0 - points at a QuickSlotsManager
+2026-10-18 04:34:57.099 [thread 38] RA01 vehicle probe: V.inspectionComponent (+0x430 holder) 231FA5B4E80 -> 231FB934940 - points at a InspectionComponent
+2026-10-18 04:34:57.099 [thread 38] RA01 vehicle probe: V.0x1BB3C9EA077FFB57 (+0x440 holder) 231FA4B0800 -> 231FB982600 - points at a 0x973537F71293714B
+2026-10-18 04:34:57.099 [thread 38] RA01 vehicle probe: V.Phone (+0x468 holder) 231FA5B4C40 -> 231FB934C40 - points at a PlayerPhone
+2026-10-18 04:34:57.099 [thread 38] RA01 vehicle probe: V.0x2924A49C5CE48529 (+0x478 holder) 235EDCC2DE0 -> 235F0064F50 - points at a gameFPPCameraComponent
+2026-10-18 04:34:57.100 [thread 38] RA01 vehicle probe: V.0x9D050E5856BAC92B (+0x488 holder) 231F70613C0 -> 231F7282FC0 - points at a gameTargetingComponent
+2026-10-18 04:34:57.100 [thread 38] RA01 vehicle probe: V.0x460956FFD7448E1F (+0x498 holder) 235EDF943E0 -> 235EFDF1180 - points at a gameBreachFinderComponent
+2026-10-18 04:34:57.100 [thread 38] RA01 vehicle probe: V.0x7BA6D67C8F38165F (+0x4A8 holder) 235EE550CB0 -> 235F3F57410 - points at a gameChaseSpawnComponent
+2026-10-18 04:34:57.100 [thread 38] RA01 vehicle probe: V.DEBUG_Visualizer (+0x4C0 holder) 231FA5B4F40 -> 231FB934880 - points at a DEBUG_VisualizerComponent
+2026-10-18 04:34:57.100 [thread 38] RA01 vehicle probe: V.0xA9FE818F991D5332 (+0x4D0 holder) 231F8692440 -> 231E94A0740 - points at a DEBUG_DamageInputReceiver
+2026-10-18 04:34:57.100 [thread 38] RA01 vehicle probe: V.0x3557D117F4F18094 (+0x504 holder) 4066666700000000 -> 43674CCC00000000
+2026-10-18 04:34:57.101 [thread 38] RA01 vehicle probe: V.curInventoryWeight (+0x508 holder) 40666667 -> 43674CCC
+2026-10-18 04:34:57.101 [thread 38] RA01 vehicle probe: V.0x28C8BEE57721AD2D (+0x530 holder) 231F7044730 -> 231FA6958B0
+2026-10-18 04:34:57.101 [thread 38] RA01 vehicle probe: V.0xE9F90081CC53752B (+0x540 holder) 231F86926C0 -> 231E94A0240
+2026-10-18 04:34:57.101 [thread 38] RA01 vehicle probe: V.0x8A991BCC441BA0CA (+0x550 holder) 231F8692700 -> 231E94A0280
+2026-10-18 04:34:57.101 [thread 38] RA01 vehicle probe: V.0xF22586D312FFDEF8 (+0x560 holder) 231F8692740 -> 231E94A0140
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x23A8659C3E770929 (+0x570 holder) 231F8692780 -> 231E94A0180
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x0C96F9100D07B2D6 (+0x580 holder) 231F86927C0 -> 231E94A0D40
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0xDA9E4AC88E030BD3 (+0x590 holder) 231F8692800 -> 231E94A0080
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0xFDDE3005789D67F1 (+0x5A0 holder) 231F8692840 -> 231E94A0E40
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.CPOMissionDataState (+0x608 holder) 231F8692480 -> 231E94A0780 - points at a CPOMissionDataState
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x86D1093C18883671 (+0x628 holder) 231F86ACD58 -> 231E5E8C410 - points at a VisibilityStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x4DEA13293305F883 (+0x638 holder) 231F86ACF98 -> 231E5E8C650 - points at a SecondHeartStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x35E31B8983C6B0CA (+0x648 holder) 231F8692900 -> 231E94A3180 - points at a ArmorStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x4EA0D6F538FE9731 (+0x658 holder) 231F8692880 -> 231E94A0E00 - points at a HealthStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0xEFEF2341BF0F34AB (+0x668 holder) 231F86ACFE0 -> 231E5E8C698 - points at a OxygenStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0xE1A3161DD910706D (+0x678 holder) 231FC7E6F00 -> 231F32CE1A0 - points at a AimAssistSettingsListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0xC634571DCB2F8D13 (+0x688 holder) 231F86AD028 -> 231E5E8C6E0 - points at a AutoRevealStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x2A3D6BAEA472D63F (+0x698 holder) 231F6FACAD0 -> 231E0308318 - points at a PlayerPuppetAllStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x04914C4DBB327EAD (+0x6A8 holder) 231F6FE3CF0 -> 231ECE10730
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.HealingItemsChargeStatListener (+0x6B8 holder) 231F86AD190 -> 231E5E8C848 - points at a HealingItemsChargeStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.GrenadesChargeStatListener (+0x6C8 holder) 231F86AD1D8 -> 231E5E8C890 - points at a GrenadesChargeStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.ProjectileLauncherChargeStatListener (+0x6D8 holder) 231F86AD220 -> 231E5E8C8D8 - points at a ProjectileLauncherChargeStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.OpticalCamoChargeStatListener (+0x6E8 holder) 231F86AD268 -> 231E5E8C920 - points at a OpticalCamoChargeStatListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.OverclockChargeListener (+0x6F8 holder) 231F86AD2B0 -> 231E5E8C968 - points at a OverclockChargeListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x81422D5BCF58FAFD (+0x708 holder) 231FC7E6FE0 -> 231F32CE280 - points at a AccessibilityControlsListener
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x24524A3CB1A370BA (+0x724 holder) 3100000030 -> 8900000088
+2026-10-18 04:34:57.102 [thread 38] RA01 vehicle probe: V.0x5EE788106C41104C (+0x728 holder) 31 -> 89
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0xF7C70E97588532E9 (+0x730 holder) 231FA4B1E80 -> 231ECB488C0 - points at a 0x0000000000000000
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0xE34D29E4A21EAC39 (+0x790 holder) 0 -> 1
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.combatGadgetState (+0x7BC holder) 100000000 -> 0
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.sceneTier (+0x7C0 holder) 1 -> 0
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0x37039C16F98659DA (+0x82C holder) F86AD10042C80000 -> E5E8C7B800000000
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0x8F7CCE9C2733AFAA (+0x830 holder) 231F86AD100 -> 231E5E8C7B8 - points at a StaminaListener
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0x82F0F0CA8B130372 (+0x840 holder) 231F86AD148 -> 231E5E8C800 - points at a MemoryListener
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0xDC526BD39D9CB229 (+0x870 holder) 18 -> 17
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0x38782432B5675756 (+0x880 holder) 231FA81EDC0 -> 231E6405980 - points at a PlayerVisionModeController
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0x44D42CCA13449785 (+0x890 holder) 231FA81F040 -> 231E64059C0 - points at a PlayerCombatController
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0xB6DEE16AD4C44142 (+0x8A0 holder) 231F8692AC0 -> 231E94A3340 - points at a PlayerWeaponHandlingModifiers
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0xF6D52C3D170B07A8 (+0x8C0 holder) 100000001 -> 100D9C2F4
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.pocketRadio (+0x8F0 holder) 231F8692B00 -> 231E94A3380 - points at a PocketRadio
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0xC019D841B5690860 (+0x910 holder) 231EE64A410 -> 231E5E3B950
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0x119B8C434EB11DD8 (+0x92C holder) EDCE3B0000000000 -> F10B0D9000000000
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.0xD7991FB9DF448103 (+0x160 holder) 235EDE8A4C0 -> 235EF007460 - points at a gameHitRepresentationComponent
+2026-10-18 04:34:57.103 [thread 38] RA01 vehicle probe: V.visibleObjectComponent (+0x1A0 holder) 231FA4B0580 -> 231FB98DB40 - points at a 0x8050E44DD00FA879
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.sensorObjectComponent (+0x1B8 holder) 231F7031BA0 -> 231F72529E0 - points at a 0xBA0C975C1A26F593
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.targetTrackerComponent (+0x1C8 holder) 235EDE896A0 -> 235EEDB31A0 - points at a TargetTrackingExtension
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.0xBE2D6A639F95E069 (+0x1D8 holder) 231F8BB8D38 -> 231E72DD850
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.resourceLibraryComponent (+0x230 holder) 231FA5B5240 -> 231FB934F40 - points at a ResourceLibraryComponent
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.inventoryComponent (+0x250 holder) 231FA4C8960 -> 231FB8527A0 - points at a gameInventory
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.transformHistoryComponent (+0x270 holder) 231FA5B53C0 -> 231FB9350C0 - points at a entTransformHistoryComponent
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.animationControllerComponent (+0x280 holder) 231F70834A0 -> 231FB7F4420 - points at a entAnimationControllerComponent
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.bumpComponent (+0x290 holder) 235EDCDF400 -> 235EEBCD950 - points at a gameinfluenceBumpComponent
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.0xC1183602F32A73DF (+0x2A1 holder) 0 -> C000000000000000
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.isIconic (+0x2A2 holder) 5000000000000000 -> 47C0000000000000
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.combatHUDManager (+0x2A8 holder) 231FA5B5000 -> 231FB9347C0 - points at a CombatHUDManager
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.0x604797E1879824A9 (+0x2C0 holder) 231FA691EF0 -> 231FB397D70
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.0x0F9F6DD87C05FE7F (+0x32A holder) 2380000000000000 -> 980000000000000
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.0x2CEC2680279DD0BE (+0x32B holder) 6923800000000000 -> 4A09800000000000
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.hitHistory (+0x330 holder) 231F8692380 -> 231E94A0980 - points at a HitHistory
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.persistentState (+0x168) 231FA5CDD18 -> 231E8921E50 - points at a PlayerPuppetPS
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.uiSlotComponent (+0x218) 231FA654970 -> 231FB7A8DB0 - points at a entSlotComponent
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.0x538FEFBD5010C02B (+0x2C holder) FA4C8A7000000000 -> 0
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.scanningComponent (+0x30 holder) 231FA4C8A70 -> 0
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.statusEffectComponent (+0x58 holder) 231FA5E9420 -> 231FBBF33E0 - points at a gameStatusEffectComponent
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.0xF14D21075C626604 (+0x80 holder) 231FA5B5180 -> 231FB934E80 - points at a StimBroadcasterComponent
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.0x2BC57DD0570C388A (+0x90 holder) 231FA4A1020 -> 231F7231A30 - points at a SquadMemberBaseComponent
+2026-10-18 04:34:57.104 [thread 38] RA01 vehicle probe: V.targetShootComponent (+0xB0 holder) 235EDCDFA70 -> 235F07006E0 - points at a gameTargetShootComponent
+2026-10-18 04:35:06.876 [thread 38] RA01 vehicle probe: V.0xE34D29E4A21EAC39 (+0x790 holder) 1 -> 0
+2026-10-18 04:35:06.876 [thread 38] RA01 vehicle probe: V.gunshotRange (+0x7B0 holder) 0 -> 3F80000041F00000
+2026-10-18 04:35:06.877 [thread 38] RA01 vehicle probe: V.explosionRange (+0x7B4 holder) 0 -> 3F800000
+2026-10-18 04:35:06.877 [thread 38] RA01 vehicle probe: V.combatGadgetState (+0x7BC holder) 0 -> 100000000
+2026-10-18 04:35:06.877 [thread 38] RA01 vehicle probe: V.sceneTier (+0x7C0 holder) 0 -> 1
+2026-10-18 04:35:06.877 [thread 38] RA01 vehicle probe: V.0xD868F315E80C852C (+0x7F8 holder) 0 -> 412C9BE200000000
+2026-10-18 04:35:06.877 [thread 38] RA01 vehicle probe: V.0xC2508935E352F5CF (+0x7F9 holder) B000000000000000 -> B0412C9BE2000000
+2026-10-18 04:35:06.877 [thread 38] RA01 vehicle probe: V.0x5428D46370686F0C (+0x7FC holder) 90B14EB000000000 -> 90B14EB0412C9BE2
+2026-10-18 04:35:06.877 [thread 38] RA01 vehicle probe: V.0x37039C16F98659DA (+0x82C holder) E5E8C7B800000000 -> E5E8C7B8429A9016
+2026-10-18 04:35:07.127 [thread 38] RA01 vehicle probe: V.0x37039C16F98659DA (+0x82C holder) E5E8C7B8429A9016 -> E5E8C7B8429C10AE
+2026-10-18 04:35:07.379 [thread 38] RA01 vehicle probe: V.0x37039C16F98659DA keeps changing - ignored from now on
+2026-10-18 04:36:12.038 [thread 38] RA01 vehicle probe: V.0xD868F315E80C852C (+0x7F8 holder) 412C9BE200000000 -> 4150219500000000
+2026-10-18 04:36:12.038 [thread 38] RA01 vehicle probe: V.0xC2508935E352F5CF (+0x7F9 holder) B0412C9BE2000000 -> B041502195000000
+2026-10-18 04:36:12.038 [thread 38] RA01 vehicle probe: V.0x5428D46370686F0C (+0x7FC holder) 90B14EB0412C9BE2 -> 90B14EB041502195
+2026-10-18 04:36:12.790 [thread 38] RA01 vehicle probe: V.0xD868F315E80C852C (+0x7F8 holder) 4150219500000000 -> 412C9BE200000000
+2026-10-18 04:36:12.791 [thread 38] RA01 vehicle probe: V.0xC2508935E352F5CF (+0x7F9 holder) B041502195000000 -> B0412C9BE2000000
+2026-10-18 04:36:12.791 [thread 38] RA01 vehicle probe: V.0x5428D46370686F0C (+0x7FC holder) 90B14EB041502195 -> 90B14EB0412C9BE2
+2026-10-18 04:36:13.291 [thread 38] RA01 vehicle probe: V.isAiming (+0x77A holder) 0 -> AE30000000000000
+2026-10-18 04:36:13.291 [thread 38] RA01 vehicle probe: V.focusModeActive (+0x77B holder) 0 -> 75AE300000000000
+2026-10-18 04:36:13.292 [thread 38] RA01 vehicle probe: V.0xC0CB8086D2C23716 (+0x77C holder) 0 -> 1475AE3000000000
+2026-10-18 04:36:13.292 [thread 38] RA01 vehicle probe: V.equippedRightHandWeapon (+0x780 holder) 0 -> 2361475AE30 - points at a 0x829834D980C37E84
+2026-10-18 04:36:13.292 [thread 38] RA01 vehicle probe: V.leftHandCyberwareState (+0x798 holder) 0 -> B00000000
+2026-10-18 04:36:13.292 [thread 38] RA01 vehicle probe: V.meleeWeaponState (+0x79C holder) 0 -> B
+2026-10-18 04:36:14.044 [thread 38] RA01 vehicle probe: V.leftHandCyberwareState (+0x798 holder) B00000000 -> 200000000
+2026-10-18 04:36:14.044 [thread 38] RA01 vehicle probe: V.meleeWeaponState (+0x79C holder) B -> 2
+2026-10-18 04:36:15.297 [thread 38] RA01 vehicle probe: V.leftHandCyberwareState (+0x798 holder) 200000000 -> 0
+2026-10-18 04:36:15.297 [thread 38] RA01 vehicle probe: V.meleeWeaponState (+0x79C holder) 2 -> 0
+2026-10-18 04:36:15.550 [thread 38] RA01 vehicle probe: V.isAiming (+0x77A holder) AE30000000000000 -> 3D40000000000000
+2026-10-18 04:36:15.550 [thread 38] RA01 vehicle probe: V.focusModeActive (+0x77B holder) 75AE300000000000 -> B63D400000000000
+2026-10-18 04:36:15.550 [thread 38] RA01 vehicle probe: V.0xC0CB8086D2C23716 (+0x77C holder) 1475AE3000000000 -> F0B63D4000000000
+2026-10-18 04:36:15.551 [thread 38] RA01 vehicle probe: V.equippedRightHandWeapon (+0x780 holder) 2361475AE30 -> 235F0B63D40 - points at a 0x829834D980C37E84
+2026-10-18 04:36:17.304 [thread 38] RA01 vehicle probe: V.0x2A21FE19EA6A6172 (+0x774 holder) 0 -> 1000000000000
+2026-10-18 04:36:17.304 [thread 38] RA01 vehicle probe: V.0x68B34DE70134FCAC (+0x775 holder) 0 -> 10000000000
+2026-10-18 04:36:17.304 [thread 38] RA01 vehicle probe: V.0xC914FA1669E57EFF (+0x776 holder) 0 -> 100000000
+2026-10-18 04:36:17.304 [thread 38] RA01 vehicle probe: V.isAiming (+0x77A holder) 3D40000000000000 -> 3D40000000000001
+2026-10-18 04:36:18.558 [thread 38] RA01 vehicle probe: V.0x2A21FE19EA6A6172 (+0x774 holder) 1000000000000 -> 0
+2026-10-18 04:36:18.558 [thread 38] RA01 vehicle probe: V.0x68B34DE70134FCAC (+0x775 holder) 10000000000 -> 0
+2026-10-18 04:36:18.558 [thread 38] RA01 vehicle probe: V.0xC914FA1669E57EFF (+0x776 holder) 100000000 -> 0
+2026-10-18 04:36:18.559 [thread 38] RA01 vehicle probe: V.isAiming (+0x77A holder) 3D40000000000001 -> 3D40000000000000
+2026-10-18 04:36:19.060 [thread 38] RA01 vehicle probe: V.0x8BACB5DBBDB927D0 (+0x768 holder) 0 -> 1
+2026-10-18 04:36:21.315 [thread 38] RA01 vehicle probe: V.0x2A21FE19EA6A6172 (+0x774 holder) 0 -> 1000000000000
+2026-10-18 04:36:21.315 [thread 38] RA01 vehicle probe: V.0x68B34DE70134FCAC (+0x775 holder) 0 -> 10000000000
+2026-10-18 04:36:21.315 [thread 38] RA01 vehicle probe: V.0xC914FA1669E57EFF (+0x776 holder) 0 -> 100000000
+2026-10-18 04:36:21.315 [thread 38] RA01 vehicle probe: V.isAiming keeps changing - ignored from now on
+2026-10-18 04:36:23.823 [thread 38] RA01 vehicle probe: V.0xD868F315E80C852C (+0x7F8 holder) 412C9BE200000000 -> 4281099D00000000
+2026-10-18 04:36:23.823 [thread 38] RA01 vehicle probe: V.0xC2508935E352F5CF (+0x7F9 holder) B0412C9BE2000000 -> B04281099D000000
+2026-10-18 04:36:23.823 [thread 38] RA01 vehicle probe: V.0x5428D46370686F0C (+0x7FC holder) 90B14EB0412C9BE2 -> 90B14EB04281099D
+2026-10-18 04:36:24.074 [thread 38] RA01 vehicle probe: V.0x2A21FE19EA6A6172 (+0x774 holder) 1000000000000 -> 0
+2026-10-18 04:36:24.074 [thread 38] RA01 vehicle probe: V.0x68B34DE70134FCAC (+0x775 holder) 10000000000 -> 0
+2026-10-18 04:36:24.074 [thread 38] RA01 vehicle probe: V.0xC914FA1669E57EFF (+0x776 holder) 100000000 -> 0

@@ -1,0 +1,10 @@
+2026-10-18 04:34:22.438 [thread 1] RA01 game exe: R:\SteamLibrary\steamapps\common\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe, 59945608 bytes, file version 3.0.5294808, product version 2.31
+2026-10-18 04:34:22.438 [thread 1] RA01 game exe header: timestamp 2025-08-27 17:52:42 UTC (0x68AF45EA), image size 0x4EFC000, checksum 0x039357A5, base 0x7FF7F01F0000
+2026-10-18 04:34:22.438 [thread 1] RA01 game exe code section .text: RVA 0x1000, size 0x2A8BCA8
+2026-10-18 04:34:24.231 [thread 1] RA01 blackboard probe: 10 of 10 blackboard setters hooked, at RVA [0] 0x11F9AC, [1] 0x1B93BC, [2] 0x2E4A58, [3] 0x32BD8C, [4] 0x46F674, [5] 0x60D1EC, [6] 0x8EAB44, [7] 0xB64958, [8] 0xFF49E4, [9] 0x11EBF70 (2.31: 0x32BD8C = Bool, 0x1B93BC = Int)
+2026-10-18 04:34:24.366 [thread 1] RA01 rehooker: exe stamp 68AF45EA - 2.31, the build RA01 was made on; features off: none (Logs\RA01_Rehooker.txt)
+2026-10-18 04:34:26.701 [thread 45] RA01 reload rule: also switching the other weapon states' reload doors: NoAmmoDecisions.ToReload (795)
+2026-10-18 04:34:26.701 [thread 45] RA01 reload rule: the game's own reload is OFF (physical reloading on: ToReload and EnterCondition say no) - no auto-reload, X doesn't reload
+2026-10-18 04:34:50.581 [thread 33] RA01 blackboard: the game says a menu is OPEN
+2026-10-18 04:34:56.791 [thread 33] RA01 blackboard: the game says a menu is closed
+2026-10-18 04:36:29.833 [thread 33] RA01 blackboard: the game says a menu is OPEN

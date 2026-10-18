@@ -1,0 +1,49 @@
+RA01 Rehooker report - 2026-10-18 04:35:09
+Game build:   exe stamp 68AF45EA - 2.31, the build RA01 was made on
+Address list: not needed (same game build as RA01 was made on)
+Features off: none
+
+Camera (stereo view)             VR camera                          FOUND at RVA 0x127F97
+Camera end (log only)            VR camera                          FOUND at RVA 0x785578
+Camera patch (log only)          VR camera                          FOUND at RVA 0x1D8A8F
+Body pose                        Body tracking (VRIK)               FOUND at RVA 0x4B6968
+Throw arc worker                 Physical throw                     FOUND at RVA 0x47323C
+Throw flight path                Physical throw                     FOUND at RVA 0x84F9AC
+Ray runner                       Gun aiming                         FOUND at RVA 0x2389CC
+Multi-hit ray runner             Gun aiming                         FOUND at RVA 0x2397F8
+PhysX call in the runner         Gun aiming                         FOUND at RVA 0x239935
+Aim line callers (3)             Gun aiming                         FOUND at RVA 0x6F1FAF
+PhysX raycast (PhysX3_x64.dll)   Gun aiming                         FOUND at +0x60890
+PhysX sweep (PhysX3_x64.dll)     Gun aiming                         FOUND at +0x60960
+Shot aim source                  Shots from the gun                 FOUND at RVA 0x4D8354
+Crosshair update                 Crosshair control                  FOUND at RVA 0x5B8D28
+Crosshair apply                  Crosshair control                  FOUND at RVA 0x5B8C18
+Crosshair per-frame check        Crosshair control                  FOUND at RVA 0x1492600
+Weapon event handler             Weapon detection                   FOUND at RVA 0x656288
+Blackboard setters (10)          Menu sensing                       FOUND at RVA 0x32BD8C
+Render camera                    Frame pairing                      FOUND at RVA 0x623FD8
+World node attach                Room probe (Dev)                   FOUND at RVA 0x3C7C1A
+Occlusion switch                 Culling lab (Dev)                  FOUND at RVA 0x79E52C
+Distance stretch formula         Wide-view distance fix (test)      FOUND at RVA 0x4E427B
+RTTI catalogue                   Game calls (refill, sounds)        FOUND at RVA 0x2F1080
+Name look-up                     Game calls (refill, sounds)        FOUND at RVA 0x209580
+Call native function             Game calls (refill, sounds)        FOUND at RVA 0x20668A0
+Call script function             Game calls (Dev tests)             FOUND at RVA 0x1BC104
+Call stack table                 Game calls (refill, sounds)        FOUND at RVA 0x2B37B28
+Create object                    Chambered round                    FOUND at RVA 0x1471EC
+Handle maker                     Chambered round                    FOUND at RVA 0x1456C0
+Game engine pointer              Game anchor (V, menus, loading)    FOUND at RVA 0x342AC00
+Game database pointer            No aim zoom, weapon names          FOUND at RVA 0x37C1490
+XInputGetState import            Controller input                   FOUND (import from xinput9_1_0.dll)
+Present (frames)                 VR picture                         FOUND (dxgi.dll swap chain table)
+Widget parent (field)            Shrink game HUD (test)             FOUND at +0x168
+Widget name (field)              Shrink game HUD (test)             FOUND at +0x188
+Widget scale (field)             Shrink game HUD (test)             FOUND at +0xC0
+Widget pivot (field)             Shrink game HUD (test)             FOUND at +0x1A8
+Vehicle model name (field)       Steering wheel learned banner      not checked yet
+Crosshair safe-state (field)     Crosshair control                  FOUND at +0x283
+Crosshair reduced opacity (field) Crosshair control                  FOUND at +0x278
+Hold indicator safety            Load safety (Johnny saves)         FOUND at RVA 0x4D7EF8
+
+FOUND = where 2.31 had it. MOVED = found somewhere else and checked by its bytes. OFF = not used this start (the game runs as normal there).
+A new game build: run claude_session_tools\RA01_HookCheck.py on the new exe and address list, and put the RA01_Addresses_<build>.ini it makes in the Settings folder.

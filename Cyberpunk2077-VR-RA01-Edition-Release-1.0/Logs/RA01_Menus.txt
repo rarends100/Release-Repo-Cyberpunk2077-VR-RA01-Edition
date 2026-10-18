@@ -1,0 +1,17 @@
+2026-10-18 04:34:24.365 [thread 36] RA01 banner: "PLEASE WAIT - LOADING GUNS"
+2026-10-18 04:34:26.446 [thread 46] RA01 flat menu: no headset loop running - F10 opens the settings window on the monitor (use the mouse)
+2026-10-18 04:34:26.446 [thread 47] RA01 settings: read RA01_Settings.ini: picture size x1.03, head prediction 15 ms, frame lag 0, IPD the headset's own, stereo on, game field of view x1.26, picture moved -0.7 right / -1.8 up, game menu size 52, F10 window 834x391
+2026-10-18 04:34:28.774 [thread 36] RA01 banner: "GUNS READY"
+2026-10-18 04:34:31.668 [thread 46] RA01 flat menu: settings window opened on the monitor (F10 or its X closes it)
+2026-10-18 04:35:09.982 [thread 46] RA01 flat menu: settings window opened on the monitor (F10 or its X closes it)
+2026-10-18 04:35:12.289 [thread 46] RA01 menu: tab = Dev Only Tools
+2026-10-18 04:35:14.287 [thread 46] RA01 menu: tab = Dev_Rehook
+2026-10-18 04:35:48.600 [thread 46] RA01 menu: tab = Dev Only Tools
+2026-10-18 04:35:50.229 [thread 46] RA01 menu: tab = Log control
+2026-10-18 04:35:51.572 [thread 46] RA01 menu: tab = Performance
+2026-10-18 04:35:58.019 [thread 46] RA01 menu: tab = Vehicle
+2026-10-18 04:36:02.203 [thread 46] RA01 menu: tab = HUD
+2026-10-18 04:36:02.690 [thread 46] RA01 menu: tab = VRIK
+2026-10-18 04:36:03.283 [thread 46] RA01 menu: tab = VR Controls
+2026-10-18 04:36:03.855 [thread 46] RA01 menu: tab = VR Video Settings
+2026-10-18 04:36:11.200 [thread 46] RA01 menu: the mouse is back with the game; 1874 raw mouse movements were seen while the window was open (0 would mean the game reads its mouse another way: tell me)

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- RA01: M47 - the xUnit tests for the whole mod. Run from the project folder:   dotnet test Tests\RA01.Tests.csproj
+       RA01: it compiles its OWN copy of every .cs in Core, Actions and Visuals (the mod's RA01.csproj is not touched or referenced), plus the test files here.
+       RA01: Core\ModFolders.cs is left out and replaced by Tests\ModFoldersStandIn.cs, so a test run never touches the real Settings or Logs folders.
+       RA01: xUnit is a test-only download (NuGet, on the first run); none of it ever goes into RA01.dll or the ship folder.
+       RA01: Cost - build: a few seconds; CPU/GPU in game: none (never part of the game). -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <RootNamespace>RA01.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="*.cs" />
+    <Compile Include="..\Core\**\*.cs" Exclude="..\Core\ModFolders.cs" LinkBase="Mod\Core" />
+    <Compile Include="..\Actions\**\*.cs" LinkBase="Mod\Actions" />
+    <Compile Include="..\Visuals\**\*.cs" LinkBase="Mod\Visuals" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+  </ItemGroup>
+
+</Project>
