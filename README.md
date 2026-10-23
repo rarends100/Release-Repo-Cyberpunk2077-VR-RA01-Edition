@@ -1,3 +1,5 @@
+ONLY for Nexus Admins, This code is copyright protected by a EULA, do not steal, repo goes private once approved.
+
 # Cyberpunk 2077 VR - RA01 Edition (source)
 
 A free VR conversion for Cyberpunk 2077 (game build 2.31): stereo OpenXR rendering, 6DoF motion controls, full-body IK and physical interactions (aiming, reloading, throwing, melee, driving, climbing, swimming).
